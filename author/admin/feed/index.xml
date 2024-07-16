@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>admin &#8211; Fris Financieel</title>
+	<atom:link href="/author/admin/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Administratieve &#38; Fiscale dienstverlening</description>
+	<lastBuildDate>Mon, 01 Jul 2024 18:04:39 +0000</lastBuildDate>
+	<language>nl-NL</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+
+<image>
+	<url>/wp-content/uploads/2024/07/cropped-logo-32x32.png</url>
+	<title>admin &#8211; Fris Financieel</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hallo wereld!</title>
+		<link>/hallo-wereld/</link>
+					<comments>/hallo-wereld/#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 01 Jul 2024 18:04:39 +0000</pubDate>
+				<category><![CDATA[Niet gecategoriseerd]]></category>
+		<guid isPermaLink="false">/?p=1</guid>
+
+					<description><![CDATA[Welkom bij WordPress. Dit is je eerste bericht. Bewerk of verwijder het, start dan met schrijven!]]></description>
+										<content:encoded><![CDATA[<!-- content style : start --><style type="text/css" data-name="kubio-style"></style><!-- content style : end -->
+<p>Welkom bij WordPress. Dit is je eerste bericht. Bewerk of verwijder het, start dan met schrijven!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/hallo-wereld/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
