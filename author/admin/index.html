@@ -1,414 +1,427 @@
 <!DOCTYPE html>
-<html lang="nl-NL" id="kubio">
+<html lang="en-US">
 <head>
+	
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>admin &#8211; fris financieel</title>
 <meta name="robots" content="max-image-preview:large">
-<title>admin &#8211; Fris Financieel</title>
-<link rel="alternate" type="application/rss+xml" title="Fris Financieel &raquo; feed" href="/feed/">
-<link rel="alternate" type="application/rss+xml" title="Fris Financieel &raquo; reactiesfeed" href="/comments/feed/">
-<link rel="alternate" type="application/rss+xml" title="Fris Financieel &raquo; berichten door admin feed" href="/author/admin/feed/">
-<script type="text/javascript">
-/* <![CDATA[ */
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"}};
-/*! This file is auto-generated */
-!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
-/* ]]> */
-</script>
-<link rel="stylesheet" id="kubio-block-library-css" href="/wp-content/plugins/kubio/build/block-library/style.css?ver=1725038295" type="text/css" media="all">
-<style id="kubio-block-library-inline-css" type="text/css">.kubio-shape-circles{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/circles.png')}.kubio-shape-10degree-stripes{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/10degree-stripes.png')}.kubio-shape-rounded-squares-blue{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/rounded-squares-blue.png')}.kubio-shape-many-rounded-squares-blue{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/many-rounded-squares-blue.png')}.kubio-shape-two-circles{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/two-circles.png')}.kubio-shape-circles-2{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-2.png')}.kubio-shape-circles-3{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-3.png')}.kubio-shape-circles-gradient{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-gradient.png')}.kubio-shape-circles-white-gradient{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-white-gradient.png')}.kubio-shape-waves{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/waves.png')}.kubio-shape-waves-inverted{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/waves-inverted.png')}.kubio-shape-dots{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/dots.png')}.kubio-shape-left-tilted-lines{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/left-tilted-lines.png')}.kubio-shape-right-tilted-lines{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-lines.png')}.kubio-shape-right-tilted-strips{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-strips.png')}.kubio-shape-doodle{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/doodle.png')}.kubio-shape-falling-stars{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/falling-stars.png')}.kubio-shape-grain{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/grain.png')}.kubio-shape-poly1{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/poly1.png')}.kubio-shape-poly2{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/poly2.png')}.kubio-shape-wavy-lines{background-image:url('/wp-content/plugins/kubio/lib/shapes/header-shapes/wavy-lines.png')}
-
-:root { --kubio-color-1:107,166,53;--kubio-color-2:255,255,255;--kubio-color-3:0,0,0;--kubio-color-4:255,153,20;--kubio-color-5:255,255,255;--kubio-color-6:23,23,24;--kubio-color-1-variant-1:161,250,80;--kubio-color-1-variant-2:164,165,163;--kubio-color-1-variant-3:135,165,108;--kubio-color-1-variant-4:107,166,53;--kubio-color-1-variant-5:52,80,25;--kubio-color-2-variant-1:255,255,255;--kubio-color-2-variant-2:204,204,204;--kubio-color-2-variant-3:153,153,153;--kubio-color-2-variant-4:101,101,101;--kubio-color-2-variant-5:50,50,50;--kubio-color-3-variant-1:204,204,204;--kubio-color-3-variant-2:153,153,153;--kubio-color-3-variant-3:102,102,102;--kubio-color-3-variant-4:51,51,51;--kubio-color-3-variant-5:0,0,0;--kubio-color-4-variant-1:255,226,190;--kubio-color-4-variant-2:255,189,105;--kubio-color-4-variant-3:255,153,20;--kubio-color-4-variant-4:169,101,13;--kubio-color-4-variant-5:84,50,6;--kubio-color-5-variant-1:255,255,255;--kubio-color-5-variant-2:204,204,204;--kubio-color-5-variant-3:153,153,153;--kubio-color-5-variant-4:101,101,101;--kubio-color-5-variant-5:50,50,50;--kubio-color-6-variant-1:185,185,193;--kubio-color-6-variant-2:104,104,108;--kubio-color-6-variant-3:23,23,24;--kubio-color-6-variant-4:14,14,23;--kubio-color-6-variant-5:6,6,23 } .has-kubio-color-1-color{color:rgb(var(--kubio-color-1))} .has-kubio-color-1-background-color{background-color:rgb(var(--kubio-color-1))} [data-kubio] .has-kubio-color-1-color{color:rgb(var(--kubio-color-1))} [data-kubio] .has-kubio-color-1-background-color{background-color:rgb(var(--kubio-color-1))} .has-kubio-color-2-color{color:rgb(var(--kubio-color-2))} .has-kubio-color-2-background-color{background-color:rgb(var(--kubio-color-2))} [data-kubio] .has-kubio-color-2-color{color:rgb(var(--kubio-color-2))} [data-kubio] .has-kubio-color-2-background-color{background-color:rgb(var(--kubio-color-2))} .has-kubio-color-3-color{color:rgb(var(--kubio-color-3))} .has-kubio-color-3-background-color{background-color:rgb(var(--kubio-color-3))} [data-kubio] .has-kubio-color-3-color{color:rgb(var(--kubio-color-3))} [data-kubio] .has-kubio-color-3-background-color{background-color:rgb(var(--kubio-color-3))} .has-kubio-color-4-color{color:rgb(var(--kubio-color-4))} .has-kubio-color-4-background-color{background-color:rgb(var(--kubio-color-4))} [data-kubio] .has-kubio-color-4-color{color:rgb(var(--kubio-color-4))} [data-kubio] .has-kubio-color-4-background-color{background-color:rgb(var(--kubio-color-4))} .has-kubio-color-5-color{color:rgb(var(--kubio-color-5))} .has-kubio-color-5-background-color{background-color:rgb(var(--kubio-color-5))} [data-kubio] .has-kubio-color-5-color{color:rgb(var(--kubio-color-5))} [data-kubio] .has-kubio-color-5-background-color{background-color:rgb(var(--kubio-color-5))} .has-kubio-color-6-color{color:rgb(var(--kubio-color-6))} .has-kubio-color-6-background-color{background-color:rgb(var(--kubio-color-6))} [data-kubio] .has-kubio-color-6-color{color:rgb(var(--kubio-color-6))} [data-kubio] .has-kubio-color-6-background-color{background-color:rgb(var(--kubio-color-6))}
-
-.navigation{
-	position: sticky
-}
-
-#kubio .style-VtdPodzQbv-outer .wp-block-kubio-navigation-section__nav{animation-duration:0.5s;padding-top:20px;padding-bottom:20px;}#kubio .style-VtdPodzQbv-outer .h-navigation_sticky.wp-block-kubio-navigation-section__nav{padding-top:10px;padding-bottom:10px;background-color:#ffffff;box-shadow:0px 0px 4px 0px rgba(0,0,0,0.5) ;}#kubio .style-eA3RzOP-gm7-inner{text-align:center;height:auto;min-height:unset;}#kubio .style-eA3RzOP-gm7-container{height:auto;min-height:unset;}#kubio .style-gD0eh5KfFc6-container{align-items:flex-start;justify-content:flex-start;gap:10px;--kubio-gap-fallback:10px;text-decoration:none;}#kubio .style-gD0eh5KfFc6-container .kubio-logo-image{max-height:70px;}#kubio .style-gD0eh5KfFc6-image{max-height:70px;}#kubio .style-gD0eh5KfFc6-text{text-decoration:none;color:#ffffff;}#kubio .h-navigation_sticky .style-gD0eh5KfFc6-text{color:#000000;}#kubio .style-lc88_3zGJJe-inner{text-align:center;height:auto;min-height:unset;}#kubio .style-lc88_3zGJJe-container{height:auto;min-height:unset;}#kubio .style-_-BeCOY9qyc-container{height:50px;}#kubio .style-T8hOeLJWsle-inner{text-align:center;height:auto;min-height:unset;}#kubio .style-T8hOeLJWsle-container{height:auto;min-height:unset;}#kubio .style-mgFR_6NUyL4-outer.bordered-active-item > .kubio-menu > ul > li::before,#kubio .style-mgFR_6NUyL4-outer.bordered-active-item > .kubio-menu > ul > li::after{background-color:rgba(var(--kubio-color-2),1);height:1px;}#kubio .style-mgFR_6NUyL4-outer.solid-active-item > .kubio-menu > ul > li::before,#kubio .style-mgFR_6NUyL4-outer.solid-active-item > .kubio-menu > ul > li::after{background-color:white;border-top-left-radius:0%;border-top-right-radius:0%;border-bottom-left-radius:0%;border-bottom-right-radius:0%;}#kubio .style-mgFR_6NUyL4-outer > .kubio-menu > ul{justify-content:flex-end;gap:50px;--kubio-gap-fallback:50px;}#kubio .style-mgFR_6NUyL4-outer > .kubio-menu  > ul > li > a{font-family:Alegreya Sans,Helvetica, Arial, Sans-Serif, serif;font-weight:500;font-size:20px;line-height:1.5em;letter-spacing:0px;text-decoration:none;text-transform:uppercase;color:rgba(var(--kubio-color-5),1);padding-top:10px;padding-bottom:10px;padding-left:0px;padding-right:0px;}#kubio .style-mgFR_6NUyL4-outer > .kubio-menu  > ul > li > a:hover,#kubio .style-mgFR_6NUyL4-outer > .kubio-menu > ul > li > a.hover{color:rgba(var(--kubio-color-2),1);}#kubio .style-mgFR_6NUyL4-outer > .kubio-menu > ul > li.current-menu-item > a,#kubio .style-mgFR_6NUyL4-outer > .kubio-menu > ul > li.current_page_item > a{color:rgba(var(--kubio-color-2),1);}#kubio .style-mgFR_6NUyL4-outer > .kubio-menu  > ul > li > a > svg{padding-left:5px;padding-right:5px;}#kubio .style-mgFR_6NUyL4-outer > .kubio-menu  li > ul{background-color:#ffffff;margin-left:5px;margin-right:5px;box-shadow:0px 0px 5px 2px rgba(0, 0, 0, 0.04) ;}#kubio .style-mgFR_6NUyL4-outer > .kubio-menu  li > ul > li> a{font-size:14px;text-decoration:none;color:rgba(var(--kubio-color-6-variant-3),1);padding-top:10px;padding-bottom:10px;padding-left:20px;padding-right:20px;border-bottom-color:rgba(128,128,128,.2);border-bottom-width:1px;border-bottom-style:solid;background-color:rgb(255, 255, 255);}#kubio .style-mgFR_6NUyL4-outer > .kubio-menu  li > ul > li > a:hover,#kubio .style-mgFR_6NUyL4-outer > .kubio-menu  li > ul > li > a.hover{color:rgb(255, 255, 255);background-color:rgba(var(--kubio-color-1),1);}#kubio .style-mgFR_6NUyL4-outer > .kubio-menu li > ul > li.current-menu-item > a,#kubio .style-mgFR_6NUyL4-outer > .kubio-menu  li > ul > li.current_page_item > a{color:rgb(255, 255, 255);background-color:rgba(var(--kubio-color-1),1);}#kubio .style-mgFR_6NUyL4-outer > .kubio-menu > ul > li > ul{margin-top:0px;}#kubio .style-mgFR_6NUyL4-outer > .kubio-menu > ul > li > ul:before{height:0px;width:100%;}#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer.bordered-active-item > .kubio-menu > ul > li::before,#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer.bordered-active-item > .kubio-menu > ul > li::after{background-color:rgba(var(--kubio-color-1),1);}#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer > .kubio-menu  > ul > li > a{color:rgba(var(--kubio-color-1-variant-4),1);}#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer > .kubio-menu  > ul > li > a:hover,#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer > .kubio-menu > ul > li > a.hover{color:rgba(var(--kubio-color-1),1);}#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer > .kubio-menu > ul > li.current-menu-item > a,#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer > .kubio-menu > ul > li.current_page_item > a{color:rgba(var(--kubio-color-1),1);}#kubio .style-xhu5vZ0oiK2-icon{background-color:rgba(0, 0, 0, 0.1);border-top-color:black;border-top-width:0px;border-top-style:solid;border-right-color:black;border-right-width:0px;border-right-style:solid;border-bottom-color:black;border-bottom-width:0px;border-bottom-style:solid;border-left-color:black;border-left-width:0px;border-left-style:solid;border-top-left-radius:100%;border-top-right-radius:100%;border-bottom-left-radius:100%;border-bottom-right-radius:100%;fill:white;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;width:24px;height:24px;min-width:24px;min-height:24px;}.style-xhu5vZ0oiK2-offscreen{background-color:#222B34;width:300px !important;}.style-xhu5vZ0oiK2-offscreenOverlay{background-color:rgba(0,0,0,0.5);}#kubio .style-_HR0iFy7F7A-inner{text-align:center;height:auto;min-height:unset;}#kubio .style-_HR0iFy7F7A-container{height:auto;min-height:unset;}#kubio .style-tNm0HVdrClb-container{align-items:center;justify-content:center;gap:10px;--kubio-gap-fallback:10px;text-decoration:none;}#kubio .style-tNm0HVdrClb-container .kubio-logo-image{max-height:70px;}#kubio .style-tNm0HVdrClb-image{max-height:70px;}#kubio .style-tNm0HVdrClb-text{text-decoration:none;color:#ffffff;}#kubio .h-navigation_sticky .style-tNm0HVdrClb-text{color:#000000;}#kubio .style-1-bC2sEkRQy-outer > .kubio-menu > ul{--kubio-accordion-menu-offset:10px;}#kubio .style-1-bC2sEkRQy-outer > .kubio-menu  > ul > li > a{font-size:14px;text-decoration:none;color:white;padding-top:12px;padding-bottom:12px;padding-left:40px;border-top-color:#808080;border-right-color:#808080;border-bottom-color:#808080;border-bottom-width:1px;border-bottom-style:solid;border-left-color:#808080;}#kubio .style-1-bC2sEkRQy-outer > .kubio-menu  > ul > li > a > svg{padding-left:20px;padding-right:20px;}#kubio .style-1-bC2sEkRQy-outer > .kubio-menu  li > ul > li> a{font-size:14px;text-decoration:none;color:white;padding-top:12px;padding-bottom:12px;padding-left:40px;border-top-color:#808080;border-right-color:#808080;border-bottom-color:#808080;border-bottom-width:1px;border-bottom-style:solid;border-left-color:#808080;}#kubio .style-1-bC2sEkRQy-outer > .kubio-menu  li > ul > li > a > svg{padding-left:20px;padding-right:20px;}#kubio .style-cYnjOtXvHMJ-inner{text-align:center;height:auto;min-height:unset;}#kubio .style-cYnjOtXvHMJ-container{height:auto;min-height:unset;}#kubio .style-JPbMCOP1eQ1-outer{height:auto;min-height:unset;background-image:url("/wp-content/uploads/2024/07/pexels-pixabay-66921.jpg");background-size:cover;background-position:26% 53%;background-attachment:scroll;background-repeat:no-repeat;padding-top:150px;padding-bottom:150px;}#kubio .style-JPbMCOP1eQ1-outer h1,#kubio .style-JPbMCOP1eQ1-outer h1[data-kubio]{color:rgba(var(--kubio-color-5),1);}#kubio .style-JPbMCOP1eQ1-outer h2,#kubio .style-JPbMCOP1eQ1-outer h2[data-kubio]{color:rgba(var(--kubio-color-5),1);}#kubio .style-JPbMCOP1eQ1-outer h3,#kubio .style-JPbMCOP1eQ1-outer h3[data-kubio]{color:rgba(var(--kubio-color-5),1);}#kubio .style-JPbMCOP1eQ1-outer h4,#kubio .style-JPbMCOP1eQ1-outer h4[data-kubio]{color:rgba(var(--kubio-color-5),1);}#kubio .style-JPbMCOP1eQ1-outer h5,#kubio .style-JPbMCOP1eQ1-outer h5[data-kubio]{color:rgba(var(--kubio-color-5),1);}#kubio .style-JPbMCOP1eQ1-outer h6,#kubio .style-JPbMCOP1eQ1-outer h6[data-kubio]{color:rgba(var(--kubio-color-5),1);}#kubio .style-JPbMCOP1eQ1-outer,#kubio .style-JPbMCOP1eQ1-outer [data-kubio]:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6),#kubio .style-JPbMCOP1eQ1-outer p,#kubio .style-JPbMCOP1eQ1-outer p[data-kubio]{color:rgba(var(--kubio-color-5),1);}#kubio .style-7hxsVZGB2pW-inner{text-align:center;height:auto;min-height:unset;border-top-left-radius:9px;border-top-right-radius:9px;border-bottom-left-radius:9px;border-bottom-right-radius:9px;}#kubio .style-7hxsVZGB2pW-container{height:auto;min-height:unset;}#kubio .wp-block.wp-block-kubio-heading__text.style-wdjyFwZu1Wm-text{font-weight:600;font-size:4.5em;}#kubio .wp-block.wp-block-kubio-heading__text.style-wdjyFwZu1Wm-text .text-wrapper-fancy svg path{stroke:#000000;stroke-linejoin:initial;stroke-linecap:initial;stroke-width:8px;}#kubio .style-SWiKsi1MCYzfcZN-outer{padding-top:90px;padding-bottom:90px;}#kubio .style-SWiKsi1MCYzfcZN-outer a,#kubio .style-SWiKsi1MCYzfcZN-outer a[data-kubio]{font-family:Work Sans,Helvetica, Arial, Sans-Serif, serif;font-weight:400;font-size:1em;line-height:1.5;color:#ef6968;}#kubio .style-SWiKsi1MCYzfcZN-outer .h-lead,#kubio .style-SWiKsi1MCYzfcZN-outer .h-lead[data-kubio]{font-family:Work Sans,Helvetica, Arial, Sans-Serif, serif;font-weight:300;font-size:1.25em;line-height:1.5;color:#231e1e;}#kubio .style-SWiKsi1MCYzfcZN-outer,#kubio .style-SWiKsi1MCYzfcZN-outer [data-kubio]:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6),#kubio .style-SWiKsi1MCYzfcZN-outer p,#kubio .style-SWiKsi1MCYzfcZN-outer p[data-kubio]{font-family:Work Sans,Helvetica, Arial, Sans-Serif, serif;font-weight:400;font-size:16px;line-height:1.6;color:#776666;}#kubio .style-SWiKsi1MCYzfcZN-outer h1,#kubio .style-SWiKsi1MCYzfcZN-outer h1[data-kubio]{font-family:Montserrat Alternates,Helvetica, Arial, Sans-Serif, serif;font-weight:400;font-size:3.375em;line-height:1.26;color:#221212;}#kubio .style-SWiKsi1MCYzfcZN-outer h2,#kubio .style-SWiKsi1MCYzfcZN-outer h2[data-kubio]{font-family:Montserrat Alternates,Helvetica, Arial, Sans-Serif, serif;font-weight:700;font-size:2.5em;line-height:1.143;color:#221212;}#kubio .style-SWiKsi1MCYzfcZN-outer h3,#kubio .style-SWiKsi1MCYzfcZN-outer h3[data-kubio]{font-family:Montserrat Alternates,Helvetica, Arial, Sans-Serif, serif;font-weight:700;font-size:2em;line-height:1.25;color:#221212;}#kubio .style-SWiKsi1MCYzfcZN-outer h4,#kubio .style-SWiKsi1MCYzfcZN-outer h4[data-kubio]{font-family:Montserrat Alternates,Helvetica, Arial, Sans-Serif, serif;font-weight:700;font-size:1.25em;line-height:1.6;color:#b80a34;}#kubio .style-SWiKsi1MCYzfcZN-outer h5,#kubio .style-SWiKsi1MCYzfcZN-outer h5[data-kubio]{font-family:Montserrat Alternates,Helvetica, Arial, Sans-Serif, serif;font-weight:400;font-size:1.125em;line-height:1.55;color:#221212;}#kubio .style-SWiKsi1MCYzfcZN-outer h6,#kubio .style-SWiKsi1MCYzfcZN-outer h6[data-kubio]{font-family:Work Sans,Helvetica, Arial, Sans-Serif, serif;font-weight:300;font-size:1em;line-height:1.6;letter-spacing:2px;color:#b80a34;}#kubio .style-SWiKsi1MCYzfcZN-outer blockquote p,#kubio .style-SWiKsi1MCYzfcZN-outer blockquote p[data-kubio]{font-family:Roboto,Helvetica, Arial, Sans-Serif, serif;font-weight:400;font-size:16px;line-height:1.6;color:#776666;}#kubio .style-SWiKsikxeqsSpdy-n-inner{margin-top:-25px;text-align:center;}#kubio .style-SWiKsikxeqsSpdy-n-container{height:auto;min-height:unset;}#kubio .style-SWiKsifx1L_l5Ny--inner{box-shadow:none;text-align:left;background-color:#ffffff;}#kubio .style-SWiKsifx1L_l5Ny--container{height:auto;min-height:unset;}#kubio .style-SWiKsi6duco09NdG-container{border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;background-color:#cccccc;text-align:center;height:300px;}#kubio .style-SWiKsi6duco09NdG-image{object-position:top center;object-fit:cover;}#kubio .style-SWiKsiTWm2qgM-Vp-container{margin-bottom:4px;}#kubio .style-SWiKsi9-mxXHlT_P-inner{text-align:left;}#kubio .style-SWiKsi9-mxXHlT_P-container{height:auto;min-height:unset;}#kubio .style-SWiKsi-DAcGXV_T-container a{font-size:13px;color:#b80a34;margin-left:10px;margin-right:10px;}#kubio .style-SWiKsi-DAcGXV_T-container a:hover{color:#62051b;}#kubio .style-SWiKsi-DAcGXV_T-container .separator{padding-right:10px;}#kubio .style-SWiKsi-DAcGXV_T-placeholder{font-weight:400;font-size:13px;color:#323232;padding-right:10px;}#kubio .style-SWiKsiJYvrbFxMU-inner{padding-left:0px;text-align:center;}#kubio .style-SWiKsiJYvrbFxMU-container{height:auto;min-height:unset;}#kubio .style-SWiKsiv9uVS2NgTp-inner{fill:#231e1e;width:6px;height:6px;border-top-color:rgb(125, 79, 79);border-top-width:1px;border-top-style:none;border-right-color:rgb(125, 79, 79);border-right-width:1px;border-right-style:none;border-bottom-color:rgb(125, 79, 79);border-bottom-width:1px;border-bottom-style:none;border-left-color:rgb(125, 79, 79);border-left-width:1px;border-left-style:none;}#kubio .style-SWiKsiv9uVS2NgTp-inner:hover{fill:${theme.colors.0|mediumLowLuminosity};background-color:rgba(45, 45, 134, 0);}#kubio .style-SWiKsiKE9WiV9Jr7-inner{text-align:center;}#kubio .style-SWiKsiKE9WiV9Jr7-container{height:auto;min-height:unset;}#kubio .style-SWiKsiXy3_sNqX1-metaDataContainer a{font-size:13px;color:#656565;}#kubio .style-SWiKsiXy3_sNqX1-metaDataContainer .h-svg-icon{width:20px;height:20px;margin-right:5px;}#kubio .style-SWiKsiXy3_sNqX1-metaDataContainer .metadata-separator{padding-left:5px;padding-right:5px;}#kubio p.wp-block.style-SWiKsiyndIzn0LAb-container,#kubio h1.wp-block.style-SWiKsiyndIzn0LAb-container,#kubio h2.wp-block.style-SWiKsiyndIzn0LAb-container,#kubio h3.wp-block.style-SWiKsiyndIzn0LAb-container,#kubio h4.wp-block.style-SWiKsiyndIzn0LAb-container,#kubio h5.wp-block.style-SWiKsiyndIzn0LAb-container,#kubio h6.wp-block.style-SWiKsiyndIzn0LAb-container{text-align:left;}#kubio a.style-SWiKsiyndIzn0LAb-link{text-decoration:none;}#kubio .style-SWiKsifVTtKcA3Zp-text{font-family:Mulish,Helvetica, Arial, Sans-Serif, serif;font-weight:400;}#kubio .style-vP0mYzy99sE-outer{padding-top:0px;padding-bottom:0px;background-color:rgba(var(--kubio-color-5),1);}#kubio .style-vP0mYzy99sE-outer a,#kubio .style-vP0mYzy99sE-outer a[data-kubio]{color:rgba(var(--kubio-color-1),1);}#kubio .style-vP0mYzy99sE-outer a:hover,#kubio .style-vP0mYzy99sE-outer a[data-kubio]:hover{color:rgba(var(--kubio-color-1-variant-2),1);}#kubio .style-nJpox2eRXHV-inner{text-align:center;}#kubio .style-nJpox2eRXHV-container{text-align:center;height:auto;min-height:unset;}#kubio .style-local-5-container{flex:0 0 auto;ms-flex:0 0 auto;width:auto;max-width:100%;}#kubio .style-local-7-container{flex:1 1 0;ms-flex:1 1 0%;max-width:100%;}#kubio .style-local-9-container{flex:0 0 auto;ms-flex:0 0 auto;width:auto;max-width:100%;}#kubio .style-local-15-container{flex:0 0 auto;-ms-flex:0 0 auto;}#kubio .style-local-20-container{flex:0 0 auto;-ms-flex:0 0 auto;}#kubio .style-local-24-container{width:80%;flex:0 0 auto;-ms-flex:0 0 auto;}#kubio .style-local-28-container{flex:1 1 0;ms-flex:1 1 0%;max-width:100%;}#kubio .style-local-31-container{flex:0 0 auto;-ms-flex:0 0 auto;}#kubio .style-local-34-container{flex:0 0 auto;ms-flex:0 0 auto;width:auto;max-width:100%;}#kubio .style-local-36-container{flex:0 0 auto;ms-flex:0 0 auto;width:auto;max-width:100%;}#kubio .style-local-38-container{flex:0 0 auto;ms-flex:0 0 auto;width:auto;max-width:100%;}#kubio .style-local-42-container{flex:0 0 auto;-ms-flex:0 0 auto;}#kubio .style-local-45-container{flex:0 0 auto;ms-flex:0 0 auto;width:auto;max-width:100%;}#kubio .style-local-47-container{flex:0 0 auto;ms-flex:0 0 auto;width:auto;max-width:100%;}#kubio .style-local-49-container{flex:0 0 auto;ms-flex:0 0 auto;width:auto;max-width:100%;}#kubio .style-local-57-container{flex:0 0 auto;-ms-flex:0 0 auto;}.h-y-container > *:not(:last-child),.h-x-container-inner > *{margin-bottom:20px;}.h-x-container-inner,.h-column__content > .h-x-container > *:last-child,.h-y-container > .kubio-block-inserter{margin-bottom:-20px;}.h-x-container-inner{margin-left:-10px;margin-right:-10px;}.h-x-container-inner > *{padding-left:10px;padding-right:10px;}[data-kubio] a:not([class*=wp-block-button]),.with-kubio-global-style a:not([class*=wp-block-button]),a:not([class*=wp-block-button])[data-kubio],.wp-block-woocommerce-mini-cart-contents a:not([class*=wp-block-button]){font-family:Alegreya Sans,Helvetica, Arial, Sans-Serif, serif;font-weight:600;font-size:1em;line-height:1.5;text-decoration:none;color:rgba(var(--kubio-color-1),1);}[data-kubio] a:not([class*=wp-block-button]):hover,.with-kubio-global-style a:not([class*=wp-block-button]):hover,a:not([class*=wp-block-button])[data-kubio]:hover,.wp-block-woocommerce-mini-cart-contents a:not([class*=wp-block-button]):hover{color:rgba(var(--kubio-color-1-variant-4),1);}[data-kubio] h1,.with-kubio-global-style h1,h1[data-kubio],.wp-block-woocommerce-mini-cart-contents h1{font-family:Alegreya Sans,Helvetica, Arial, Sans-Serif, serif;font-weight:700;font-size:5.5em;line-height:1.26;text-transform:none;color:rgba(var(--kubio-color-6),1);}[data-kubio] h2,.with-kubio-global-style h2,h2[data-kubio],.wp-block-woocommerce-mini-cart-contents h2{font-family:Mulish,Helvetica, Arial, Sans-Serif, serif;font-weight:700;font-size:3em;line-height:1.143;text-transform:none;color:rgba(var(--kubio-color-6),1);}[data-kubio] h3,.with-kubio-global-style h3,h3[data-kubio],.wp-block-woocommerce-mini-cart-contents h3{font-family:Mulish,Helvetica, Arial, Sans-Serif, serif;font-weight:700;font-size:1.8em;line-height:1.25;text-transform:none;color:rgba(var(--kubio-color-6),1);}[data-kubio] h4,.with-kubio-global-style h4,h4[data-kubio],.wp-block-woocommerce-mini-cart-contents h4{font-family:Mulish,Helvetica, Arial, Sans-Serif, serif;font-weight:500;font-size:1.4em;line-height:1.4;text-transform:none;color:rgba(var(--kubio-color-6),1);}[data-kubio] h5,.with-kubio-global-style h5,h5[data-kubio],.wp-block-woocommerce-mini-cart-contents h5{font-family:Mulish,Helvetica, Arial, Sans-Serif, serif;font-weight:400;font-size:1.125em;line-height:1.4;text-transform:none;color:rgba(var(--kubio-color-6),1);}[data-kubio] h6,.with-kubio-global-style h6,h6[data-kubio],.wp-block-woocommerce-mini-cart-contents h6{font-family:Mulish,Helvetica, Arial, Sans-Serif, serif;font-weight:400;font-size:0.9em;line-height:1.4;letter-spacing:1px;text-transform:uppercase;color:rgba(var(--kubio-color-1),1);}[data-kubio],.with-kubio-global-style,[data-kubio] p,.with-kubio-global-style p,p[data-kubio],.wp-block-woocommerce-mini-cart-contents{font-family:Alegreya Sans,Helvetica, Arial, Sans-Serif, serif;font-weight:300;font-size:16px;line-height:1.4;text-transform:none;color:rgba(var(--kubio-color-6-variant-4),1);}[data-kubio] .h-lead,.with-kubio-global-style .h-lead,.h-lead[data-kubio]{font-family:Alegreya Sans,Helvetica, Arial, Sans-Serif, serif;font-weight:400;font-size:1.2em;line-height:1.5;text-transform:none;color:rgba(var(--kubio-color-6),1);}div.h-section-global-spacing{padding-top:100px;padding-bottom:100px;}.h-global-transition,.h-global-transition-all,.h-global-transition-all *{transition-duration:1s;}[data-kubio] input[type='color'],[data-kubio] input[type='date'],[data-kubio] input[type='datetime'],[data-kubio] input[type='datetime-local'],[data-kubio] input[type='email'],[data-kubio] input[type='month'],[data-kubio] input[type='number'],[data-kubio] input[type='password'],[data-kubio] input[type='search'],[data-kubio] input[type='tel'],[data-kubio] input[type='text'],[data-kubio] input[type='url'],[data-kubio] input[type='week'],[data-kubio] input[type='time'],[data-kubio] input:not([type]),[data-kubio] textarea,[data-kubio] select{font-family:Syne,Helvetica, Arial, Sans-Serif, serif;font-weight:400;font-size:16px;line-height:1.6;text-transform:none;background-color:rgba(var(--kubio-color-5),1);border-top-color:rgba(var(--kubio-color-5-variant-2),1);border-top-width:1px;border-top-style:solid;border-right-color:rgba(var(--kubio-color-5-variant-2),1);border-right-width:1px;border-right-style:solid;border-bottom-color:rgba(var(--kubio-color-5-variant-2),1);border-bottom-width:1px;border-bottom-style:solid;border-left-color:rgba(var(--kubio-color-5-variant-2),1);border-left-width:1px;border-left-style:solid;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;padding-top:4px;padding-bottom:4px;padding-left:10px;padding-right:10px;margin-bottom:10px;}[data-kubio] input[type='color']:hover,[data-kubio] input[type='date']:hover,[data-kubio] input[type='datetime']:hover,[data-kubio] input[type='datetime-local']:hover,[data-kubio] input[type='email']:hover,[data-kubio] input[type='month']:hover,[data-kubio] input[type='number']:hover,[data-kubio] input[type='password']:hover,[data-kubio] input[type='search']:hover,[data-kubio] input[type='tel']:hover,[data-kubio] input[type='text']:hover,[data-kubio] input[type='url']:hover,[data-kubio] input[type='week']:hover,[data-kubio] input[type='time']:hover,[data-kubio] input:not([type]):hover,[data-kubio] textarea:hover,[data-kubio] select:hover{color:rgba(var(--kubio-color-6),1);border-top-color:rgba(var(--kubio-color-6-variant-1),1);border-right-color:rgba(var(--kubio-color-6-variant-1),1);border-bottom-color:rgba(var(--kubio-color-6-variant-1),1);border-left-color:rgba(var(--kubio-color-6-variant-1),1);}[data-kubio] input[type='color']:focus,[data-kubio] input[type='date']:focus,[data-kubio] input[type='datetime']:focus,[data-kubio] input[type='datetime-local']:focus,[data-kubio] input[type='email']:focus,[data-kubio] input[type='month']:focus,[data-kubio] input[type='number']:focus,[data-kubio] input[type='password']:focus,[data-kubio] input[type='search']:focus,[data-kubio] input[type='tel']:focus,[data-kubio] input[type='text']:focus,[data-kubio] input[type='url']:focus,[data-kubio] input[type='week']:focus,[data-kubio] input[type='time']:focus,[data-kubio] input:not([type]):focus,[data-kubio] textarea:focus,[data-kubio] select:focus{color:rgba(var(--kubio-color-6),1);border-top-color:rgba(var(--kubio-color-1),1);border-right-color:rgba(var(--kubio-color-1),1);border-bottom-color:rgba(var(--kubio-color-1),1);border-left-color:rgba(var(--kubio-color-1),1);}[data-kubio] input[type='button'],[data-kubio] button{background-color:rgba(var(--kubio-color-1),1);border-top-color:rgba(var(--kubio-color-1),1);border-top-width:2px;border-top-style:solid;border-right-color:rgba(var(--kubio-color-1),1);border-right-width:2px;border-right-style:solid;border-bottom-color:rgba(var(--kubio-color-1),1);border-bottom-width:2px;border-bottom-style:solid;border-left-color:rgba(var(--kubio-color-1),1);border-left-width:2px;border-left-style:solid;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;font-family:Syne,Helvetica, Arial, Sans-Serif, serif;font-weight:400;color:rgba(var(--kubio-color-5),1);padding-top:8px;padding-bottom:8px;padding-left:25px;padding-right:24px;}[data-kubio] input[type='button']:hover,[data-kubio] button:hover{background-color:rgba(var(--kubio-color-1-variant-4),1);border-top-color:rgba(var(--kubio-color-1-variant-4),1);border-right-color:rgba(var(--kubio-color-1-variant-4),1);border-bottom-color:rgba(var(--kubio-color-1-variant-4),1);border-left-color:rgba(var(--kubio-color-1-variant-4),1);}[data-kubio] input[type='button']:disabled,[data-kubio] button:disabled,[data-kubio] input[type='button'][disabled],[data-kubio] button[disabled]{background-color:rgba(var(--kubio-color-5-variant-2),1);border-top-color:rgba(var(--kubio-color-5-variant-2),1);border-right-color:rgba(var(--kubio-color-5-variant-2),1);border-bottom-color:rgba(var(--kubio-color-5-variant-2),1);border-left-color:rgba(var(--kubio-color-5-variant-2),1);color:rgba(var(--kubio-color-5-variant-3),1);}[data-kubio] input[type='submit'],[data-kubio] button[type='submit']{border-top-color:rgba(var(--kubio-color-1),1);border-top-width:2px;border-top-style:solid;border-right-color:rgba(var(--kubio-color-1),1);border-right-width:2px;border-right-style:solid;border-bottom-color:rgba(var(--kubio-color-1),1);border-bottom-width:2px;border-bottom-style:solid;border-left-color:rgba(var(--kubio-color-1),1);border-left-width:2px;border-left-style:solid;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;font-family:Syne,Helvetica, Arial, Sans-Serif, serif;font-weight:400;color:rgba(var(--kubio-color-5),1);padding-top:8px;padding-bottom:8px;padding-left:25px;padding-right:24px;background-color:rgba(var(--kubio-color-1),1);}[data-kubio] input[type='submit']:hover,[data-kubio] button[type='submit']:hover{border-top-color:rgba(var(--kubio-color-1-variant-4),1);border-right-color:rgba(var(--kubio-color-1-variant-4),1);border-bottom-color:rgba(var(--kubio-color-1-variant-4),1);border-left-color:rgba(var(--kubio-color-1-variant-4),1);background-color:rgba(var(--kubio-color-1-variant-4),1);}[data-kubio] input[type='submit']:disabled,[data-kubio] input[type='submit'][disabled],[data-kubio] button[type='submit']:disabled,[data-kubio] button[type='submit'][disabled]{border-top-color:rgba(var(--kubio-color-5-variant-2),1);border-right-color:rgba(var(--kubio-color-5-variant-2),1);border-bottom-color:rgba(var(--kubio-color-5-variant-2),1);border-left-color:rgba(var(--kubio-color-5-variant-2),1);color:rgba(var(--kubio-color-5-variant-3),1);background-color:rgba(var(--kubio-color-5-variant-2),1);}[data-kubio] input[type='reset'],[data-kubio] button[type='reset']{background-color:rgba(var(--kubio-color-1-variant-1),1);border-top-color:rgba(var(--kubio-color-1-variant-1),1);border-top-width:2px;border-top-style:solid;border-right-color:rgba(var(--kubio-color-1-variant-1),1);border-right-width:2px;border-right-style:solid;border-bottom-color:rgba(var(--kubio-color-1-variant-1),1);border-bottom-width:2px;border-bottom-style:solid;border-left-color:rgba(var(--kubio-color-1-variant-1),1);border-left-width:2px;border-left-style:solid;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;font-family:Syne,Helvetica, Arial, Sans-Serif, serif;font-weight:400;color:rgba(var(--kubio-color-6-variant-2),1);padding-top:8px;padding-bottom:8px;padding-left:25px;padding-right:24px;}[data-kubio] input[type='reset']:hover,[data-kubio] button[type='reset']:hover{background-color:rgba(var(--kubio-color-1-variant-2),1);border-top-color:rgba(var(--kubio-color-1-variant-2),1);border-right-color:rgba(var(--kubio-color-1-variant-2),1);border-bottom-color:rgba(var(--kubio-color-1-variant-2),1);border-left-color:rgba(var(--kubio-color-1-variant-2),1);}[data-kubio] input[type='reset']:disabled,[data-kubio] input[type='reset'][disabled],[data-kubio] button[type='reset']:disabled,[data-kubio] button[type='reset'][disabled]{background-color:rgba(var(--kubio-color-5-variant-2),1);border-top-color:rgba(var(--kubio-color-5-variant-2),1);border-right-color:rgba(var(--kubio-color-5-variant-2),1);border-bottom-color:rgba(var(--kubio-color-5-variant-2),1);border-left-color:rgba(var(--kubio-color-5-variant-2),1);color:rgba(var(--kubio-color-5-variant-3),1);}#kubio  .woocommerce a.button,#kubio  .woocommerce button.button,#kubio  .woocommerce input.button,#kubio  .woocommerce #respond input#submit{border-top-color:rgba(var(--kubio-color-2),1);border-top-width:2px;border-top-style:solid;border-right-color:rgba(var(--kubio-color-2),1);border-right-width:2px;border-right-style:solid;border-bottom-color:rgba(var(--kubio-color-2),1);border-bottom-width:2px;border-bottom-style:solid;border-left-color:rgba(var(--kubio-color-2),1);border-left-width:2px;border-left-style:solid;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;background-color:rgba(var(--kubio-color-2),1);font-family:Open Sans,Helvetica, Arial, Sans-Serif, serif;font-weight:400;font-size:14px;line-height:1.2;text-transform:none;color:rgba(var(--kubio-color-5),1);}#kubio  .woocommerce a.button:hover,#kubio  .woocommerce button.button:hover,#kubio  .woocommerce input.button:hover,#kubio  .woocommerce #respond input#submit:hover{border-top-color:rgba(var(--kubio-color-2-variant-4),1);border-right-color:rgba(var(--kubio-color-2-variant-4),1);border-bottom-color:rgba(var(--kubio-color-2-variant-4),1);border-left-color:rgba(var(--kubio-color-2-variant-4),1);background-color:rgba(var(--kubio-color-2-variant-4),1);}#kubio  .woocommerce a.button:disabled,#kubio  .woocommerce a.button[disabled],#kubio  .woocommerce button.button:disabled,#kubio  .woocommerce button.button[disabled],#kubio  .woocommerce input.button:disabled,#kubio  .woocommerce input.button[disabled],#kubio  .woocommerce #respond input#submit:disabled,#kubio  .woocommerce #respond input#submit[disabled]{border-top-color:rgba(var(--kubio-color-5-variant-2),1);border-right-color:rgba(var(--kubio-color-5-variant-2),1);border-bottom-color:rgba(var(--kubio-color-5-variant-2),1);border-left-color:rgba(var(--kubio-color-5-variant-2),1);background-color:rgba(var(--kubio-color-5-variant-2),1);color:rgba(var(--kubio-color-5-variant-4),1);}#kubio  .woocommerce a.button.woocommerce-form-login__submit,#kubio  .woocommerce a.button.add_to_cart_button,#kubio  .woocommerce a.button.alt,#kubio  .woocommerce button.button.woocommerce-form-login__submit,#kubio  .woocommerce button.button.add_to_cart_button,#kubio  .woocommerce button.button.alt,#kubio  .woocommerce input.button.woocommerce-form-login__submit,#kubio  .woocommerce input.button.add_to_cart_button,#kubio  .woocommerce input.button.alt,#kubio  .woocommerce #respond input#submit.woocommerce-form-login__submit,#kubio  .woocommerce #respond input#submit.add_to_cart_button,#kubio  .woocommerce #respond input#submit.alt{background-color:rgba(var(--kubio-color-1),1);border-top-color:rgba(var(--kubio-color-1),1);border-top-width:2px;border-top-style:solid;border-right-color:rgba(var(--kubio-color-1),1);border-right-width:2px;border-right-style:solid;border-bottom-color:rgba(var(--kubio-color-1),1);border-bottom-width:2px;border-bottom-style:solid;border-left-color:rgba(var(--kubio-color-1),1);border-left-width:2px;border-left-style:solid;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;font-family:Open Sans,Helvetica, Arial, Sans-Serif, serif;font-weight:400;font-size:14px;line-height:1.2;text-transform:none;color:rgba(var(--kubio-color-5),1);box-shadow:0px 27px 15px -24px rgba(0,0,0,0.5) ;}#kubio  .woocommerce a.button.woocommerce-form-login__submit:hover,#kubio  .woocommerce a.button.add_to_cart_button:hover,#kubio  .woocommerce a.button.alt:hover,#kubio  .woocommerce button.button.woocommerce-form-login__submit:hover,#kubio  .woocommerce button.button.add_to_cart_button:hover,#kubio  .woocommerce button.button.alt:hover,#kubio  .woocommerce input.button.woocommerce-form-login__submit:hover,#kubio  .woocommerce input.button.add_to_cart_button:hover,#kubio  .woocommerce input.button.alt:hover,#kubio  .woocommerce #respond input#submit.woocommerce-form-login__submit:hover,#kubio  .woocommerce #respond input#submit.add_to_cart_button:hover,#kubio  .woocommerce #respond input#submit.alt:hover{background-color:rgba(var(--kubio-color-1-variant-4),1);border-top-color:rgba(var(--kubio-color-1-variant-4),1);border-right-color:rgba(var(--kubio-color-1-variant-4),1);border-bottom-color:rgba(var(--kubio-color-1-variant-4),1);border-left-color:rgba(var(--kubio-color-1-variant-4),1);}#kubio  .woocommerce a.button.woocommerce-form-login__submit:disabled,#kubio  .woocommerce a.button.woocommerce-form-login__submit[disabled],#kubio  .woocommerce a.button.add_to_cart_button:disabled,#kubio  .woocommerce a.button.add_to_cart_button[disabled],#kubio  .woocommerce a.button.alt:disabled,#kubio  .woocommerce a.button.alt[disabled],#kubio  .woocommerce button.button.woocommerce-form-login__submit:disabled,#kubio  .woocommerce button.button.woocommerce-form-login__submit[disabled],#kubio  .woocommerce button.button.add_to_cart_button:disabled,#kubio  .woocommerce button.button.add_to_cart_button[disabled],#kubio  .woocommerce button.button.alt:disabled,#kubio  .woocommerce button.button.alt[disabled],#kubio  .woocommerce input.button.woocommerce-form-login__submit:disabled,#kubio  .woocommerce input.button.woocommerce-form-login__submit[disabled],#kubio  .woocommerce input.button.add_to_cart_button:disabled,#kubio  .woocommerce input.button.add_to_cart_button[disabled],#kubio  .woocommerce input.button.alt:disabled,#kubio  .woocommerce input.button.alt[disabled],#kubio  .woocommerce #respond input#submit.woocommerce-form-login__submit:disabled,#kubio  .woocommerce #respond input#submit.woocommerce-form-login__submit[disabled],#kubio  .woocommerce #respond input#submit.add_to_cart_button:disabled,#kubio  .woocommerce #respond input#submit.add_to_cart_button[disabled],#kubio  .woocommerce #respond input#submit.alt:disabled,#kubio  .woocommerce #respond input#submit.alt[disabled]{background-color:rgba(var(--kubio-color-5-variant-2),1);border-top-color:rgba(var(--kubio-color-5-variant-2),1);border-right-color:rgba(var(--kubio-color-5-variant-2),1);border-bottom-color:rgba(var(--kubio-color-5-variant-2),1);border-left-color:rgba(var(--kubio-color-5-variant-2),1);color:rgba(var(--kubio-color-5-variant-4),1);}#kubio  .woocommerce-loop-product__link .onsale{background-color:rgba(var(--kubio-color-3-variant-2),1);color:rgba(var(--kubio-color-5),1);padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;}@media (min-width: 768px) and (max-width: 1023px){#kubio .style-VtdPodzQbv-outer .h-navigation_sticky.wp-block-kubio-navigation-section__nav{padding-top:20px;padding-bottom:20px;}#kubio .h-navigation_sticky .style-gD0eh5KfFc6-text{color:#ffffff;}#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer.bordered-active-item > .kubio-menu > ul > li::before,#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer.bordered-active-item > .kubio-menu > ul > li::after{background-color:rgba(var(--kubio-color-2),1);}#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer > .kubio-menu  > ul > li > a{color:rgba(var(--kubio-color-5),1);}#kubio .h-navigation_sticky .style-tNm0HVdrClb-text{color:#ffffff;}#kubio .wp-block.wp-block-kubio-heading__text.style-wdjyFwZu1Wm-text{letter-spacing:0px;}#kubio .style-SWiKsikxeqsSpdy-n-inner{margin-top:-15px;}[data-kubio] h1,.with-kubio-global-style h1,h1[data-kubio],.wp-block-woocommerce-mini-cart-contents h1{font-size:5em;}div.h-section-global-spacing{padding-top:60px;padding-bottom:60px;}}@media (max-width: 767px){#kubio .style-VtdPodzQbv-outer .wp-block-kubio-navigation-section__nav{padding-top:0px;padding-bottom:0px;}#kubio .h-navigation_sticky .style-gD0eh5KfFc6-text{color:#ffffff;}#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer.bordered-active-item > .kubio-menu > ul > li::before,#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer.bordered-active-item > .kubio-menu > ul > li::after{background-color:rgba(var(--kubio-color-2),1);}#kubio .h-navigation_sticky .style-mgFR_6NUyL4-outer > .kubio-menu  > ul > li > a{color:rgba(var(--kubio-color-5),1);}#kubio .h-navigation_sticky .style-tNm0HVdrClb-text{color:#ffffff;}#kubio .style-SWiKsi1MCYzfcZN-outer h1,#kubio .style-SWiKsi1MCYzfcZN-outer h1[data-kubio]{font-size:3em;}#kubio .style-SWiKsikxeqsSpdy-n-inner{margin-top:0px;}#kubio .style-local-5-container{flex:1 1 0;ms-flex:1 1 0%;}#kubio .style-local-15-container{width:100%;}#kubio .style-local-20-container{width:100%;}#kubio .style-local-24-container{width:100%;}#kubio .style-local-28-container{width:100%;flex:0 0 auto;-ms-flex:0 0 auto;}#kubio .style-local-31-container{width:100%;}#kubio .style-local-42-container{width:100%;}#kubio .style-local-57-container{width:100%;}[data-kubio] h1,.with-kubio-global-style h1,h1[data-kubio],.wp-block-woocommerce-mini-cart-contents h1{font-size:2.5em;}div.h-section-global-spacing{padding-top:30px;padding-bottom:30px;}}</style>
-<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
-		display: inline !important;
-		border: none !important;
-		box-shadow: none !important;
-		height: 1em !important;
-		width: 1em !important;
-		margin: 0 0.07em !important;
-		vertical-align: -0.1em !important;
-		background: none !important;
-		padding: 0 !important;
-	}</style>
-<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1" type="text/css" media="all">
-<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
-<style id="global-styles-inline-css" type="text/css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--kubio-color-1: rgba(var(--kubio-color-1), 1);--wp--preset--color--kubio-color-2: rgba(var(--kubio-color-2), 1);--wp--preset--color--kubio-color-3: rgba(var(--kubio-color-3), 1);--wp--preset--color--kubio-color-4: rgba(var(--kubio-color-4), 1);--wp--preset--color--kubio-color-5: rgba(var(--kubio-color-5), 1);--wp--preset--color--kubio-color-6: rgba(var(--kubio-color-6), 1);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-kubio-color-1-color{color: var(--wp--preset--color--kubio-color-1) !important;}.has-kubio-color-2-color{color: var(--wp--preset--color--kubio-color-2) !important;}.has-kubio-color-3-color{color: var(--wp--preset--color--kubio-color-3) !important;}.has-kubio-color-4-color{color: var(--wp--preset--color--kubio-color-4) !important;}.has-kubio-color-5-color{color: var(--wp--preset--color--kubio-color-5) !important;}.has-kubio-color-6-color{color: var(--wp--preset--color--kubio-color-6) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-kubio-color-1-background-color{background-color: var(--wp--preset--color--kubio-color-1) !important;}.has-kubio-color-2-background-color{background-color: var(--wp--preset--color--kubio-color-2) !important;}.has-kubio-color-3-background-color{background-color: var(--wp--preset--color--kubio-color-3) !important;}.has-kubio-color-4-background-color{background-color: var(--wp--preset--color--kubio-color-4) !important;}.has-kubio-color-5-background-color{background-color: var(--wp--preset--color--kubio-color-5) !important;}.has-kubio-color-6-background-color{background-color: var(--wp--preset--color--kubio-color-6) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-kubio-color-1-border-color{border-color: var(--wp--preset--color--kubio-color-1) !important;}.has-kubio-color-2-border-color{border-color: var(--wp--preset--color--kubio-color-2) !important;}.has-kubio-color-3-border-color{border-color: var(--wp--preset--color--kubio-color-3) !important;}.has-kubio-color-4-border-color{border-color: var(--wp--preset--color--kubio-color-4) !important;}.has-kubio-color-5-border-color{border-color: var(--wp--preset--color--kubio-color-5) !important;}.has-kubio-color-6-border-color{border-color: var(--wp--preset--color--kubio-color-6) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
-:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
-<style id="wp-block-template-skip-link-inline-css" type="text/css">.skip-link.screen-reader-text {
-			border: 0;
-			clip: rect(1px,1px,1px,1px);
-			clip-path: inset(50%);
-			height: 1px;
-			margin: -1px;
-			overflow: hidden;
-			padding: 0;
-			position: absolute !important;
-			width: 1px;
-			word-wrap: normal !important;
-		}
-
-		.skip-link.screen-reader-text:focus {
-			background-color: #eee;
-			clip: auto !important;
-			clip-path: none;
-			color: #444;
-			display: block;
-			font-size: 1em;
-			height: auto;
-			left: 5px;
-			line-height: normal;
-			padding: 15px 23px 14px;
-			text-decoration: none;
-			top: 5px;
-			width: auto;
-			z-index: 100000;
-		}</style>
-<link rel="stylesheet" id="contact-form-7-css" href="/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8" type="text/css" media="all">
-<link rel="stylesheet" id="kubio-local-google-fonts-css" href="/?action=kubio_get_google_font_css#038;key=e33b988a4444e3a64af0a0f07f2cd9bc&#038;ver=6.6.1" type="text/css" media="all">
-<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" id="kubio-third-party-blocks-css" href="/wp-content/plugins/kubio/build/third-party-blocks/style.css?ver=1725038295" type="text/css" media="all">
-<noscript><link rel="stylesheet" href="/wp-content/plugins/kubio/build/third-party-blocks/style.css?ver=1725038295" media="all"></noscript>
-<link rel="stylesheet" id="kubio-theme-css" href="/wp-content/themes/kubio//resources/theme/fse-base-style.css?ver=1.0.25" type="text/css" media="all">
-<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="fris financieel &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="fris financieel &raquo; Comments Feed" href="/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="fris financieel &raquo; Posts by admin Feed" href="/author/admin/feed/">
+<link rel="stylesheet" id="blocksy-dynamic-global-css" href="/wp-content/uploads/blocksy/css/global.css?ver=95751" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.6.2" media="all">
+<style id="global-styles-inline-css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--palette-color-1: var(--theme-palette-color-1, rgb(107, 166, 53));--wp--preset--color--palette-color-2: var(--theme-palette-color-2, rgb(107, 166, 53));--wp--preset--color--palette-color-3: var(--theme-palette-color-3, #4d5d6d);--wp--preset--color--palette-color-4: var(--theme-palette-color-4, #102136);--wp--preset--color--palette-color-5: var(--theme-palette-color-5, #E7EBEE);--wp--preset--color--palette-color-6: var(--theme-palette-color-6, #F3F5F7);--wp--preset--color--palette-color-7: var(--theme-palette-color-7, #FBFBFC);--wp--preset--color--palette-color-8: var(--theme-palette-color-8, #ffffff);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--juicy-peach: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);--wp--preset--gradient--young-passion: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);--wp--preset--gradient--true-sunset: linear-gradient(to right, #fa709a 0%, #fee140 100%);--wp--preset--gradient--morpheus-den: linear-gradient(to top, #30cfd0 0%, #330867 100%);--wp--preset--gradient--plum-plate: linear-gradient(135deg, #667eea 0%, #764ba2 100%);--wp--preset--gradient--aqua-splash: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);--wp--preset--gradient--love-kiss: linear-gradient(to top, #ff0844 0%, #ffb199 100%);--wp--preset--gradient--new-retrowave: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);--wp--preset--gradient--plum-bath: linear-gradient(to top, #cc208e 0%, #6713d2 100%);--wp--preset--gradient--high-flight: linear-gradient(to right, #0acffe 0%, #495aff 100%);--wp--preset--gradient--teen-party: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);--wp--preset--gradient--fabled-sunset: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);--wp--preset--gradient--arielle-smile: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);--wp--preset--gradient--itmeo-branding: linear-gradient(180deg, #2af598 0%, #009efd 100%);--wp--preset--gradient--deep-blue: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);--wp--preset--gradient--strong-bliss: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);--wp--preset--gradient--sweet-period: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);--wp--preset--gradient--purple-division: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);--wp--preset--gradient--cold-evening: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);--wp--preset--gradient--mountain-rock: linear-gradient(to right, #868f96 0%, #596164 100%);--wp--preset--gradient--desert-hump: linear-gradient(to top, #c79081 0%, #dfa579 100%);--wp--preset--gradient--ethernal-constance: linear-gradient(to top, #09203f 0%, #537895 100%);--wp--preset--gradient--happy-memories: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);--wp--preset--gradient--grown-early: linear-gradient(to top, #0ba360 0%, #3cba92 100%);--wp--preset--gradient--morning-salad: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%);--wp--preset--gradient--night-call: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);--wp--preset--gradient--mind-crawl: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);--wp--preset--gradient--angel-care: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);--wp--preset--gradient--juicy-cake: linear-gradient(to top, #e14fad 0%, #f9d423 100%);--wp--preset--gradient--rich-metal: linear-gradient(to right, #d7d2cc 0%, #304352 100%);--wp--preset--gradient--mole-hall: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);--wp--preset--gradient--cloudy-knoxville: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);--wp--preset--gradient--soft-grass: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);--wp--preset--gradient--saint-petersburg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);--wp--preset--gradient--everlasting-sky: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);--wp--preset--gradient--kind-steel: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);--wp--preset--gradient--over-sun: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);--wp--preset--gradient--premium-white: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);--wp--preset--gradient--clean-mirror: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);--wp--preset--gradient--wild-apple: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);--wp--preset--gradient--snow-again: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);--wp--preset--gradient--confident-cloud: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);--wp--preset--gradient--glass-water: linear-gradient(to top, #dfe9f3 0%, white 100%);--wp--preset--gradient--perfect-white: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: clamp(22px, 1.375rem + ((1vw - 3.2px) * 0.625), 30px);--wp--preset--font-size--x-large: clamp(30px, 1.875rem + ((1vw - 3.2px) * 1.563), 50px);--wp--preset--font-size--xx-large: clamp(45px, 2.813rem + ((1vw - 3.2px) * 2.734), 80px);--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: var(--theme-block-max-width);--wp--style--global--wide-size: var(--theme-block-wide-max-width); }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: var(--theme-content-spacing); margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: var(--theme-content-spacing); }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: var(--theme-content-spacing);margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: var(--theme-content-spacing);margin-block-end: 0;}:root :where(.is-layout-flex){gap: var(--theme-content-spacing);}:root :where(.is-layout-grid){gap: var(--theme-content-spacing);}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-palette-color-1-color{color: var(--wp--preset--color--palette-color-1) !important;}.has-palette-color-2-color{color: var(--wp--preset--color--palette-color-2) !important;}.has-palette-color-3-color{color: var(--wp--preset--color--palette-color-3) !important;}.has-palette-color-4-color{color: var(--wp--preset--color--palette-color-4) !important;}.has-palette-color-5-color{color: var(--wp--preset--color--palette-color-5) !important;}.has-palette-color-6-color{color: var(--wp--preset--color--palette-color-6) !important;}.has-palette-color-7-color{color: var(--wp--preset--color--palette-color-7) !important;}.has-palette-color-8-color{color: var(--wp--preset--color--palette-color-8) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-palette-color-1-background-color{background-color: var(--wp--preset--color--palette-color-1) !important;}.has-palette-color-2-background-color{background-color: var(--wp--preset--color--palette-color-2) !important;}.has-palette-color-3-background-color{background-color: var(--wp--preset--color--palette-color-3) !important;}.has-palette-color-4-background-color{background-color: var(--wp--preset--color--palette-color-4) !important;}.has-palette-color-5-background-color{background-color: var(--wp--preset--color--palette-color-5) !important;}.has-palette-color-6-background-color{background-color: var(--wp--preset--color--palette-color-6) !important;}.has-palette-color-7-background-color{background-color: var(--wp--preset--color--palette-color-7) !important;}.has-palette-color-8-background-color{background-color: var(--wp--preset--color--palette-color-8) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-palette-color-1-border-color{border-color: var(--wp--preset--color--palette-color-1) !important;}.has-palette-color-2-border-color{border-color: var(--wp--preset--color--palette-color-2) !important;}.has-palette-color-3-border-color{border-color: var(--wp--preset--color--palette-color-3) !important;}.has-palette-color-4-border-color{border-color: var(--wp--preset--color--palette-color-4) !important;}.has-palette-color-5-border-color{border-color: var(--wp--preset--color--palette-color-5) !important;}.has-palette-color-6-border-color{border-color: var(--wp--preset--color--palette-color-6) !important;}.has-palette-color-7-border-color{border-color: var(--wp--preset--color--palette-color-7) !important;}.has-palette-color-8-border-color{border-color: var(--wp--preset--color--palette-color-8) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-juicy-peach-gradient-background{background: var(--wp--preset--gradient--juicy-peach) !important;}.has-young-passion-gradient-background{background: var(--wp--preset--gradient--young-passion) !important;}.has-true-sunset-gradient-background{background: var(--wp--preset--gradient--true-sunset) !important;}.has-morpheus-den-gradient-background{background: var(--wp--preset--gradient--morpheus-den) !important;}.has-plum-plate-gradient-background{background: var(--wp--preset--gradient--plum-plate) !important;}.has-aqua-splash-gradient-background{background: var(--wp--preset--gradient--aqua-splash) !important;}.has-love-kiss-gradient-background{background: var(--wp--preset--gradient--love-kiss) !important;}.has-new-retrowave-gradient-background{background: var(--wp--preset--gradient--new-retrowave) !important;}.has-plum-bath-gradient-background{background: var(--wp--preset--gradient--plum-bath) !important;}.has-high-flight-gradient-background{background: var(--wp--preset--gradient--high-flight) !important;}.has-teen-party-gradient-background{background: var(--wp--preset--gradient--teen-party) !important;}.has-fabled-sunset-gradient-background{background: var(--wp--preset--gradient--fabled-sunset) !important;}.has-arielle-smile-gradient-background{background: var(--wp--preset--gradient--arielle-smile) !important;}.has-itmeo-branding-gradient-background{background: var(--wp--preset--gradient--itmeo-branding) !important;}.has-deep-blue-gradient-background{background: var(--wp--preset--gradient--deep-blue) !important;}.has-strong-bliss-gradient-background{background: var(--wp--preset--gradient--strong-bliss) !important;}.has-sweet-period-gradient-background{background: var(--wp--preset--gradient--sweet-period) !important;}.has-purple-division-gradient-background{background: var(--wp--preset--gradient--purple-division) !important;}.has-cold-evening-gradient-background{background: var(--wp--preset--gradient--cold-evening) !important;}.has-mountain-rock-gradient-background{background: var(--wp--preset--gradient--mountain-rock) !important;}.has-desert-hump-gradient-background{background: var(--wp--preset--gradient--desert-hump) !important;}.has-ethernal-constance-gradient-background{background: var(--wp--preset--gradient--ethernal-constance) !important;}.has-happy-memories-gradient-background{background: var(--wp--preset--gradient--happy-memories) !important;}.has-grown-early-gradient-background{background: var(--wp--preset--gradient--grown-early) !important;}.has-morning-salad-gradient-background{background: var(--wp--preset--gradient--morning-salad) !important;}.has-night-call-gradient-background{background: var(--wp--preset--gradient--night-call) !important;}.has-mind-crawl-gradient-background{background: var(--wp--preset--gradient--mind-crawl) !important;}.has-angel-care-gradient-background{background: var(--wp--preset--gradient--angel-care) !important;}.has-juicy-cake-gradient-background{background: var(--wp--preset--gradient--juicy-cake) !important;}.has-rich-metal-gradient-background{background: var(--wp--preset--gradient--rich-metal) !important;}.has-mole-hall-gradient-background{background: var(--wp--preset--gradient--mole-hall) !important;}.has-cloudy-knoxville-gradient-background{background: var(--wp--preset--gradient--cloudy-knoxville) !important;}.has-soft-grass-gradient-background{background: var(--wp--preset--gradient--soft-grass) !important;}.has-saint-petersburg-gradient-background{background: var(--wp--preset--gradient--saint-petersburg) !important;}.has-everlasting-sky-gradient-background{background: var(--wp--preset--gradient--everlasting-sky) !important;}.has-kind-steel-gradient-background{background: var(--wp--preset--gradient--kind-steel) !important;}.has-over-sun-gradient-background{background: var(--wp--preset--gradient--over-sun) !important;}.has-premium-white-gradient-background{background: var(--wp--preset--gradient--premium-white) !important;}.has-clean-mirror-gradient-background{background: var(--wp--preset--gradient--clean-mirror) !important;}.has-wild-apple-gradient-background{background: var(--wp--preset--gradient--wild-apple) !important;}.has-snow-again-gradient-background{background: var(--wp--preset--gradient--snow-again) !important;}.has-confident-cloud-gradient-background{background: var(--wp--preset--gradient--confident-cloud) !important;}.has-glass-water-gradient-background{background: var(--wp--preset--gradient--glass-water) !important;}.has-perfect-white-gradient-background{background: var(--wp--preset--gradient--perfect-white) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xx-large-font-size{font-size: var(--wp--preset--font-size--xx-large) !important;}
+:root :where(.wp-block-pullquote){font-size: clamp(0.984em, 0.984rem + ((1vw - 0.2em) * 0.645), 1.5em);line-height: 1.6;}</style>
+<link rel="stylesheet" id="parent-style-css" href="/wp-content/themes/blocksy/style.css?ver=6.6.2" media="all">
+<link rel="stylesheet" id="blocksy-fonts-font-source-google-css" href="https://fonts.googleapis.com/css2?family=Alegreya%20Sans:wght@400;500;600;700&#038;family=Average%20Sans:wght@400&#038;display=swap" media="all">
+<link rel="stylesheet" id="ct-main-styles-css" href="/wp-content/themes/blocksy/static/bundle/main.min.css?ver=2.0.71" media="all">
+<link rel="stylesheet" id="ct-page-title-styles-css" href="/wp-content/themes/blocksy/static/bundle/page-title.min.css?ver=2.0.71" media="all">
+<link rel="stylesheet" id="ct-elementor-styles-css" href="/wp-content/themes/blocksy/static/bundle/elementor-frontend.min.css?ver=2.0.71" media="all">
+<link rel="stylesheet" id="ct-wpforms-styles-css" href="/wp-content/themes/blocksy/static/bundle/wpforms.min.css?ver=2.0.71" media="all">
 <link rel="https://api.w.org/" href="/wp-json/">
 <link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/users/1">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
-<meta name="generator" content="WordPress 6.6.1">
-<meta name="format-detection" content="telephone=no">
-<link rel="icon" href="/wp-content/uploads/2024/07/cropped-logo-32x32.png" sizes="32x32">
-<link rel="icon" href="/wp-content/uploads/2024/07/cropped-logo-192x192.png" sizes="192x192">
-<link rel="apple-touch-icon" href="/wp-content/uploads/2024/07/cropped-logo-180x180.png">
-<meta name="msapplication-TileImage" content="/wp-content/uploads/2024/07/cropped-logo-270x270.png">
-    <base target="_top">
-    		<style data-kubio-theme-style="true"></style>
-		</head>
-
-<body class="archive author author-admin author-1 wp-custom-logo">
-	<div id="page-top" tabindex="-1"></div>
-	
-<div class="wp-site-blocks">
-<div class="wp-block wp-block-kubio-header  position-relative wp-block-kubio-header__container style-theme-Zam-Tq5W3-container" data-kubio="kubio/header">
-<div class="wp-block wp-block-kubio-navigation  position-relative wp-block-kubio-navigation__outer style-VtdPodzQbv-outer style-local-1-outer h-navigation_overlap" data-kubio="kubio/navigation" data-kubio-component="overlap" data-kubio-settings="true" id="navigation-1"><div class="wp-block wp-block-kubio-navigation-section  position-relative wp-block-kubio-navigation-section__nav style-wOR5QX8SQP-nav style-local-2-nav h-section h-navigation" data-kubio="kubio/navigation-section" data-kubio-component="navigation" data-kubio-settings="{&quot;sticky&quot;:false,&quot;overlap&quot;:true}"><div class="position-relative wp-block-kubio-navigation-section__nav-section style-wOR5QX8SQP-nav-section style-local-2-nav-section h-section-grid-container h-section-fluid-container h-section-boxed-container"><div class="wp-block wp-block-kubio-navigation-items  position-relative wp-block-kubio-navigation-items__outer style-zUzmMI2q9--outer style-local-3-outer" data-kubio="kubio/navigation-items" data-nav-normal="true"><div class="wp-block wp-block-kubio-row  position-relative wp-block-kubio-row__container style-r2XXfsy5lr-container style-local-4-container gutters-row-lg-1 gutters-row-v-lg-0 gutters-row-md-1 gutters-row-v-md-0 gutters-row-2 gutters-row-v-2" data-kubio="kubio/row">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-row__inner style-r2XXfsy5lr-inner style-local-4-inner h-row align-items-lg-stretch align-items-md-stretch align-items-stretch justify-content-lg-center justify-content-md-center justify-content-center gutters-col-lg-1 gutters-col-v-lg-0 gutters-col-md-1 gutters-col-v-md-0 gutters-col-2 gutters-col-v-2">
-<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container style-eA3RzOP-gm7-container style-local-5-container d-flex h-col-lg-auto h-col-md-auto h-col" data-kubio="kubio/column"><div class="position-relative wp-block-kubio-column__inner style-eA3RzOP-gm7-inner style-local-5-inner d-flex h-flex-basis h-px-lg-2 v-inner-lg-0 h-px-md-2 v-inner-md-0 h-px-2 v-inner-0">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-column__align style-eA3RzOP-gm7-align style-local-5-align h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center"><a class="wp-block wp-block-kubio-logo  position-relative wp-block-kubio-logo__container style-gD0eh5KfFc6-container style-local-6-container kubio-has-gap-fallback kubio-logo-direction-row kubio-logo-without-text autodetect-mode" data-kubio="kubio/logo" href="/"><img decoding="async" class="position-relative wp-block-kubio-logo__image style-gD0eh5KfFc6-image style-local-6-image kubio-logo-image" alt="" src="/wp-content/uploads/2024/07/logo-1.png"><img decoding="async" class="position-relative wp-block-kubio-logo__alternateImage style-gD0eh5KfFc6-alternateImage style-local-6-alternateImage kubio-logo-image kubio-alternate-logo-image" alt="" src="/wp-content/uploads/2024/07/logo-1.png"><span class="position-relative wp-block-kubio-logo__text style-gD0eh5KfFc6-text style-local-6-text"></span></a></div>
-</div></div>
-<div class="wp-block wp-block-kubio-column  kubio-hide-on-mobile position-relative wp-block-kubio-column__container style-lc88_3zGJJe-container style-local-7-container d-flex h-col-lg h-col-md h-col" data-kubio="kubio/column"><div class="position-relative wp-block-kubio-column__inner style-lc88_3zGJJe-inner style-local-7-inner d-flex h-flex-basis h-px-lg-0 v-inner-lg-0 h-px-md-0 v-inner-md-0 h-px-0 v-inner-0">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-column__align style-lc88_3zGJJe-align style-local-7-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center"><div class="wp-block wp-block-kubio-spacer  position-relative wp-block-kubio-spacer__container style-_-BeCOY9qyc-container style-local-8-container" data-kubio="kubio/spacer"></div></div>
-</div></div>
-<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container style-T8hOeLJWsle-container style-local-9-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column"><div class="position-relative wp-block-kubio-column__inner style-T8hOeLJWsle-inner style-local-9-inner d-flex h-flex-basis h-px-lg-0 v-inner-lg-0 h-px-md-0 v-inner-md-0 h-px-2 v-inner-2">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-column__align style-T8hOeLJWsle-align style-local-9-align h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center"><div class="wp-block wp-block-kubio-dropdown-menu  position-relative wp-block-kubio-dropdown-menu__outer style-mgFR_6NUyL4-outer style-local-10-outer kubio-dropdown-menu h-ignore-global-body-typography has-offcanvas-mobile bordered-active-item bordered-active-item--bottom effect-borders-grow grow-from-left" data-kubio="kubio/dropdown-menu" data-kubio-component="dropdown-menu" data-kubio-settings="[]">
-<div class="wp-block wp-block-kubio-menu-items  position-relative wp-block-kubio-menu-items__outer style-QKWspE_TeYy-outer style-local-11-outer kubio-menu" data-kubio="kubio/menu-items"><ul id="menu-primary-menu-1" class="menu kubio-has-gap-fallback">
-<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-86"><a href="/" style=";--kubio-menu-item-depth:0/">Home</a></li>
-<li id="menu-item-294" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-294"><a href="/#overons" style=";--kubio-menu-item-depth:0/">Over Fris</a></li>
-<li id="menu-item-239" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-239"><a href="/#team" style=";--kubio-menu-item-depth:0/">Ons Team</a></li>
-<li id="menu-item-240" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-240"><a href="/#diensten" style=";--kubio-menu-item-depth:0/">Diensten</a></li>
-<li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-192"><a href="/contact/" style=";--kubio-menu-item-depth:0/">Contact</a></li>
-<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-191"><a href="/blog/" style=";--kubio-menu-item-depth:0/">Nieuws</a></li>
-</ul></div>
-<div class="wp-block wp-block-kubio-menu-offscreen  position-relative wp-block-kubio-menu-offscreen__container style-xhu5vZ0oiK2-container style-local-12-container" data-kubio="kubio/menu-offscreen">
-<div class="position-relative wp-block-kubio-menu-offscreen__align style-xhu5vZ0oiK2-align style-local-12-align"><button class="position-relative wp-block-kubio-menu-offscreen__iconWrapper style-xhu5vZ0oiK2-iconWrapper style-local-12-iconWrapper kubio-offscreen-icon-wrapper" data-target="#kubio-offscreen-66df55cba994d" data-target-id="kubio-offscreen-66df55cba994d" data-direction="right" data-width="300px" data-offcanvas-overlay-id="kubio-offscreen-66df55cba994d-overlay" aria-label="Mobiel menu" data-kubio-component="offcanvas" data-kubio-settings="[]"><span class="h-svg-icon wp-block-kubio-menu-offscreen__icon style-xhu5vZ0oiK2-icon style-local-12-icon" name="font-awesome/navicon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="navicon" viewbox="0 0 1536 1896.0833"><path d="M1536 1344v128q0 26-19 45t-45 19H64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19H64q-26 0-45-19T0 960V832q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19H64q-26 0-45-19T0 448V320q0-26 19-45t45-19h1408q26 0 45 19t19 45z"></path></svg></span></button></div>
-<div class="position-relative wp-block-kubio-menu-offscreen__offscreenOverlay style-xhu5vZ0oiK2-offscreenOverlay style-local-12-offscreenOverlay kubio-offscreen-overlay offscreen-overlay" id="kubio-offscreen-66df55cba994d-overlay"></div>
-<div class="position-relative wp-block-kubio-menu-offscreen__offscreen style-xhu5vZ0oiK2-offscreen style-local-12-offscreen kubio-offscreen offscreen hide" id="kubio-offscreen-66df55cba994d"><div class="position-relative wp-block-kubio-menu-offscreen__inner style-xhu5vZ0oiK2-inner style-local-12-inner"><div class="wp-block wp-block-kubio-menu-offscreen-content  position-relative wp-block-kubio-menu-offscreen-content__container style-7myak5a0-6k-container style-local-13-container" data-kubio="kubio/menu-offscreen-content">
-<div class="wp-block wp-block-kubio-row  position-relative wp-block-kubio-row__container style-G5OaeWp2RLE-container style-local-14-container gutters-row-lg-2 gutters-row-v-lg-2 gutters-row-md-2 gutters-row-v-md-2 gutters-row-0 gutters-row-v-2" data-kubio="kubio/row">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-row__inner style-G5OaeWp2RLE-inner style-local-14-inner h-row align-items-lg-stretch align-items-md-stretch align-items-stretch justify-content-lg-center justify-content-md-center justify-content-center gutters-col-lg-2 gutters-col-v-lg-2 gutters-col-md-2 gutters-col-v-md-2 gutters-col-0 gutters-col-v-2"><div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container style-_HR0iFy7F7A-container style-local-15-container d-flex h-col-lg-12 h-col-md-12 h-col-12" data-kubio="kubio/column"><div class="position-relative wp-block-kubio-column__inner style-_HR0iFy7F7A-inner style-local-15-inner d-flex h-flex-basis h-px-lg-2 v-inner-lg-2 h-px-md-2 v-inner-md-2 h-px-2 v-inner-2">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-column__align style-_HR0iFy7F7A-align style-local-15-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-start align-self-md-start align-self-start"><a class="wp-block wp-block-kubio-logo  position-relative wp-block-kubio-logo__container style-tNm0HVdrClb-container style-local-16-container kubio-has-gap-fallback kubio-logo-direction-row kubio-logo-without-text autodetect-mode" data-kubio="kubio/logo" href="/"><img decoding="async" class="position-relative wp-block-kubio-logo__image style-tNm0HVdrClb-image style-local-16-image kubio-logo-image" alt="" src="/wp-content/uploads/2024/07/logo-1.png"><img decoding="async" class="position-relative wp-block-kubio-logo__alternateImage style-tNm0HVdrClb-alternateImage style-local-16-alternateImage kubio-logo-image kubio-alternate-logo-image" alt="" src="/wp-content/uploads/2024/07/logo-1.png"><span class="position-relative wp-block-kubio-logo__text style-tNm0HVdrClb-text style-local-16-text"></span></a></div>
-</div></div></div>
-</div>
-<div class="wp-block wp-block-kubio-accordion-menu  position-relative wp-block-kubio-accordion-menu__outer style-1-bC2sEkRQy-outer style-local-17-outer kubio-accordion-menu h-ignore-global-body-typography" data-kubio="kubio/accordion-menu" data-kubio-component="accordion-menu" data-kubio-settings="[]"><div class="wp-block wp-block-kubio-menu-items  position-relative wp-block-kubio-menu-items__outer style-5ZXj6r2D5Uy-outer style-local-18-outer kubio-menu" data-kubio="kubio/menu-items"><ul id="menu-primary-menu-1" class="menu kubio-has-gap-fallback">
-<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-86"><a href="/" style=";--kubio-menu-item-depth:0/">Home</a></li>
-<li id="menu-item-294" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-294"><a href="/#overons" style=";--kubio-menu-item-depth:0/">Over Fris</a></li>
-<li id="menu-item-239" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-239"><a href="/#team" style=";--kubio-menu-item-depth:0/">Ons Team</a></li>
-<li id="menu-item-240" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-240"><a href="/#diensten" style=";--kubio-menu-item-depth:0/">Diensten</a></li>
-<li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-192"><a href="/contact/" style=";--kubio-menu-item-depth:0/">Contact</a></li>
-<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-191"><a href="/blog/" style=";--kubio-menu-item-depth:0/">Nieuws</a></li>
-</ul></div></div>
-<div class="wp-block wp-block-kubio-row  position-relative wp-block-kubio-row__container style-sNpfEXYUuzO-container style-local-19-container gutters-row-lg-2 gutters-row-v-lg-2 gutters-row-md-2 gutters-row-v-md-2 gutters-row-0 gutters-row-v-2" data-kubio="kubio/row">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-row__inner style-sNpfEXYUuzO-inner style-local-19-inner h-row align-items-lg-stretch align-items-md-stretch align-items-stretch justify-content-lg-center justify-content-md-center justify-content-center gutters-col-lg-2 gutters-col-v-lg-2 gutters-col-md-2 gutters-col-v-md-2 gutters-col-0 gutters-col-v-2"><div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container style-cYnjOtXvHMJ-container style-local-20-container d-flex h-col-lg-12 h-col-md-12 h-col-12" data-kubio="kubio/column"><div class="position-relative wp-block-kubio-column__inner style-cYnjOtXvHMJ-inner style-local-20-inner d-flex h-flex-basis h-px-lg-2 v-inner-lg-2 h-px-md-2 v-inner-md-2 h-px-2 v-inner-2">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-column__align style-cYnjOtXvHMJ-align style-local-20-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-start align-self-md-start align-self-start"><p class="wp-block wp-block-kubio-text  position-relative wp-block-kubio-text__text style-rkFT70uL9dO-text style-local-21-text" data-kubio="kubio/text">© 2019</p></div>
-</div></div></div>
-</div>
-</div></div></div>
-</div>
-</div></div>
-</div></div>
-</div>
-</div></div></div></div></div>
-
-<div class="wp-block wp-block-kubio-hero  position-relative wp-block-kubio-hero__outer style-JPbMCOP1eQ1-outer style-local-22-outer d-flex h-section-global-spacing align-items-lg-center align-items-md-center align-items-center" data-kubio="kubio/hero" id="hero">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"><div class="overlay-layer"><div class="overlay-image-layer" style="background-color:rgba(0,0,0,1);opacity:0.5"></div></div></div>
-<div class="background-layer background-layer-media-container-md"><div class="overlay-layer"><div class="overlay-image-layer" style="background-color:rgba(0,0,0,1);opacity:0.5"></div></div></div>
-<div class="background-layer background-layer-media-container"><div class="overlay-layer"><div class="overlay-image-layer" style="background-color:rgba(0,0,0,1);opacity:0.5"></div></div></div>
-</div>
-<div class="position-relative wp-block-kubio-hero__inner style-JPbMCOP1eQ1-inner style-local-22-inner h-navigation-padding h-section-grid-container h-section-boxed-container">		<script type="text/javascript">
-			(function () {
-				// forEach polyfill
-				if (!NodeList.prototype.forEach) {
-					NodeList.prototype.forEach = function (callback) {
-						for (var i = 0; i < this.length; i++) {
-							callback.call(this, this.item(i));
-						}
+<meta name="generator" content="WordPress 6.6.2">
+<noscript><link rel="stylesheet" href="/wp-content/themes/blocksy/static/bundle/no-scripts.min.css" type="text/css"></noscript>
+<meta name="generator" content="Elementor 3.24.6; features: e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-auto">
+			<style>.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
 					}
 				}
-				var navigation = document.querySelector('[data-colibri-navigation-overlap="true"], .h-navigation_overlap');
-				if (navigation) {
-
-					var els = document
-						.querySelectorAll('.h-navigation-padding');
-					if (els.length) {
-						els.forEach(function (item) {
-							item.style.paddingTop = navigation.offsetHeight + "px";
-						});
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
 					}
-				}
-			})();
-		</script>
-		<div class="wp-block wp-block-kubio-row  position-relative wp-block-kubio-row__container style-EjwJp3P-OBR-container style-local-23-container gutters-row-lg-0 gutters-row-v-lg-0 gutters-row-md-0 gutters-row-v-md-0 gutters-row-0 gutters-row-v-0" data-kubio="kubio/row">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-row__inner style-EjwJp3P-OBR-inner style-local-23-inner h-row align-items-lg-stretch align-items-md-stretch align-items-stretch justify-content-lg-center justify-content-md-center justify-content-center gutters-col-lg-0 gutters-col-v-lg-0 gutters-col-md-0 gutters-col-v-md-0 gutters-col-0 gutters-col-v-0"><div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container style-7hxsVZGB2pW-container style-local-24-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column"><div class="position-relative wp-block-kubio-column__inner style-7hxsVZGB2pW-inner style-local-24-inner d-flex h-flex-basis h-px-lg-2 v-inner-lg-2 h-px-md-2 v-inner-md-2 h-px-2 v-inner-2">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-column__align style-7hxsVZGB2pW-align style-local-24-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center"><h1 class="wp-block wp-block-kubio-heading  position-relative wp-block-kubio-heading__text style-wdjyFwZu1Wm-text style-local-25-text" data-kubio="kubio/heading">Contact</h1></div>
-</div></div></div>
-</div>
-</div>
-</div>
-</div>
+				}</style>
+			<link rel="icon" href="/wp-content/uploads/2024/10/cropped-logo-1-32x32.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2024/10/cropped-logo-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2024/10/cropped-logo-1-180x180.png">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2024/10/cropped-logo-1-270x270.png">
+		<style id="wp-custom-css">.ct-service-box:hover p,
+.ct-service-box:hover h3,
+.ct-service-box:hover .fas {
+	color: #fff;
+	transition: color .3s;
+}</style>
+		<style id="wpforms-css-vars-root">:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-border-style: solid;
+--wpforms-field-border-size: 1px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-border-color-spare: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-field-menu-color: #ffffff;
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-border-style: none;
+--wpforms-button-border-size: 1px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-border-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-page-break-color: #066aab;
+--wpforms-background-image: none;
+--wpforms-background-position: center center;
+--wpforms-background-repeat: no-repeat;
+--wpforms-background-size: cover;
+--wpforms-background-width: 100px;
+--wpforms-background-height: 100px;
+--wpforms-background-color: rgba( 0, 0, 0, 0 );
+--wpforms-background-url: none;
+--wpforms-container-padding: 0px;
+--wpforms-container-border-style: none;
+--wpforms-container-border-width: 1px;
+--wpforms-container-border-color: #000000;
+--wpforms-container-border-radius: 3px;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+--wpforms-container-shadow-size-box-shadow: none;
 
-<div class="wp-block wp-block-kubio-query-layout  position-relative wp-block-kubio-query-layout__outer style-SWiKsi1MCYzfcZN-outer style-local-26-outer d-flex h-section-global-spacing align-items-lg-center align-items-md-center align-items-center" data-kubio="kubio/query-layout" id="blog-layout">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-query-layout__inner style-SWiKsi1MCYzfcZN-inner style-local-26-inner h-section-grid-container h-section-boxed-container"><div class="wp-block wp-block-kubio-row  position-relative wp-block-kubio-row__container style-SWiKsibaLWB4dRKjp-container style-local-27-container gutters-row-lg-0 gutters-row-v-lg-0 gutters-row-md-0 gutters-row-v-md-0 gutters-row-0 gutters-row-v-0" data-kubio="kubio/row">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-row__inner style-SWiKsibaLWB4dRKjp-inner style-local-27-inner h-row align-items-lg-stretch align-items-md-stretch align-items-stretch justify-content-lg-center justify-content-md-center justify-content-center gutters-col-lg-0 gutters-col-v-lg-0 gutters-col-md-0 gutters-col-v-md-0 gutters-col-0 gutters-col-v-0"><div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container style-SWiKsikxeqsSpdy-n-container style-local-28-container d-flex h-col-lg h-col-md h-col-auto" data-kubio="kubio/column"><div class="position-relative wp-block-kubio-column__inner style-SWiKsikxeqsSpdy-n-inner style-local-28-inner d-flex h-flex-basis h-px-lg-2 v-inner-lg-2 h-px-md-2 v-inner-md-2 h-px-2 v-inner-2">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-column__align style-SWiKsikxeqsSpdy-n-align style-local-28-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-start align-self-md-start align-self-start"><div class="wp-block wp-block-kubio-query  position-relative wp-block-kubio-query__container style-SWiKsiCtKC_EuIZL-container style-local-29-container" data-kubio="kubio/query"><div class="wp-block wp-block-kubio-query-loop  position-relative wp-block-kubio-query-loop__container style-SWiKsivrf0UGkWrN-container style-local-30-container gutters-row-lg-1 gutters-row-v-lg-1 gutters-row-md-1 gutters-row-v-md-1 gutters-row-0 gutters-row-v-1" data-kubio="kubio/query-loop" data-kubio-component="masonry" data-kubio-settings="{&quot;enabled&quot;:&quot;1&quot;,&quot;targetSelector&quot;:&quot;.wp-block-kubio-query-loop__inner&quot;}">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-query-loop__inner style-SWiKsivrf0UGkWrN-inner style-local-30-inner h-row gutters-col-lg-1 gutters-col-v-lg-1 gutters-col-md-1 gutters-col-v-md-1 gutters-col-0 gutters-col-v-1 align-items-lg-stretch align-items-md-stretch align-items-stretch justify-content-lg-start justify-content-md-start justify-content-start kubio-query-loop--use-masonry">
-<!--kubio post list : start-->
-<div class="wp-block wp-block-kubio-query-loop-item  position-relative wp-block-kubio-query-loop-item__container style-SWiKsifx1L_l5Ny--container style-local-31-container d-flex h-col-lg-4 h-col-md-4 h-col-12 post-1 post type-post status-publish format-standard hentry category-niet-gecategoriseerd" data-kubio="kubio/query-loop-item"><div class="position-relative wp-block-kubio-query-loop-item__inner style-SWiKsifx1L_l5Ny--inner style-local-31-inner d-flex h-flex-basis h-px-lg-2 v-inner-lg-2 h-px-md-2 v-inner-md-2 h-px-2 v-inner-2">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-query-loop-item__align style-SWiKsifx1L_l5Ny--align style-local-31-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-start align-self-md-start align-self-start">
-<figure class="wp-block wp-block-kubio-post-featured-image  position-relative wp-block-kubio-post-featured-image__container style-SWiKsi6duco09NdG-container style-local-32-container kubio-post-featured-image--image-missing h-aspect-ratio--4-3" data-kubio="kubio/post-featured-image" data-kubio-component="link" data-kubio-settings="{&quot;href&quot;:&quot;\/hallo-wereld\/&quot;,&quot;target&quot;:null,&quot;rel&quot;:null,&quot;data-kubio-component&quot;:null}"><div class="position-relative wp-block-kubio-post-featured-image__inner style-SWiKsi6duco09NdG-inner style-local-32-inner"><div class="position-relative wp-block-kubio-post-featured-image__align style-SWiKsi6duco09NdG-align style-local-32-align h-y-container align-self-lg-center align-self-md-center align-self-center"></div></div></figure><div class="wp-block wp-block-kubio-row  position-relative wp-block-kubio-row__container style-SWiKsiTWm2qgM-Vp-container style-local-33-container gutters-row-lg-0 gutters-row-v-lg-0 gutters-row-md-0 gutters-row-v-md-0 gutters-row-0 gutters-row-v-0" data-kubio="kubio/row">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-row__inner style-SWiKsiTWm2qgM-Vp-inner style-local-33-inner h-row align-items-lg-stretch align-items-md-stretch align-items-stretch justify-content-lg-start justify-content-md-start justify-content-start gutters-col-lg-0 gutters-col-v-lg-0 gutters-col-md-0 gutters-col-v-md-0 gutters-col-0 gutters-col-v-0">
-<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container style-SWiKsi9-mxXHlT_P-container style-local-34-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column"><div class="position-relative wp-block-kubio-column__inner style-SWiKsi9-mxXHlT_P-inner style-local-34-inner d-flex h-flex-basis h-px-lg-0 v-inner-lg-0 h-px-md-0 v-inner-md-0 h-px-0 v-inner-0">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-column__align style-SWiKsi9-mxXHlT_P-align style-local-34-align h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center"><div class="wp-block wp-block-kubio-post-categories  position-relative wp-block-kubio-post-categories__container style-SWiKsi-DAcGXV_T-container style-local-35-container kubio-post-categories-container" data-kubio="kubio/post-categories"><div class="position-relative wp-block-kubio-post-categories__tags style-SWiKsi-DAcGXV_T-tags style-local-35-tags"><a href="/category/niet-gecategoriseerd/">Niet gecategoriseerd</a></div></div></div>
-</div></div>
-<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container style-SWiKsiJYvrbFxMU-container style-local-36-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column"><div class="position-relative wp-block-kubio-column__inner style-SWiKsiJYvrbFxMU-inner style-local-36-inner d-flex h-flex-basis h-px-lg-1 v-inner-lg-0 h-px-md-1 v-inner-md-0 h-px-1 v-inner-0">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-column__align style-SWiKsiJYvrbFxMU-align style-local-36-align h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center"><div class="wp-block wp-block-kubio-icon  position-relative wp-block-kubio-icon__outer style-SWiKsiv9uVS2NgTp-outer style-local-37-outer" data-kubio="kubio/icon"><span class="h-svg-icon wp-block-kubio-icon__inner style-SWiKsiv9uVS2NgTp-inner style-local-37-inner h-global-transition" name="font-awesome/circle"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="circle" viewbox="0 0 1536 1896.0833"><path d="M1536 896q0 209-103 385.5T1153.5 1561 768 1664t-385.5-103T103 1281.5 0 896t103-385.5T382.5 231 768 128t385.5 103T1433 510.5 1536 896z"></path></svg></span></div></div>
-</div></div>
-<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container style-SWiKsiKE9WiV9Jr7-container style-local-38-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column"><div class="position-relative wp-block-kubio-column__inner style-SWiKsiKE9WiV9Jr7-inner style-local-38-inner d-flex h-flex-basis h-px-lg-0 v-inner-lg-0 h-px-md-0 v-inner-md-0 h-px-0 v-inner-0">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-column__align style-SWiKsiKE9WiV9Jr7-align style-local-38-align h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center"><div class="wp-block wp-block-kubio-post-meta  position-relative wp-block-kubio-post-meta__metaDataContainer style-SWiKsiXy3_sNqX1-metaDataContainer style-local-39-metaDataContainer h-blog-meta" data-kubio="kubio/post-meta">			<span class="metadata-item">
-					
-					<a href="/2024/07/01/">
-												juli 1, 2024					</a>
+				}</style>	</head>
 
-								</span>
+
+<body class="archive author author-admin author-1 wp-custom-logo wp-embed-responsive elementor-default elementor-kit-687 ct-elementor-default-template" data-link="type-2" data-prefix="author" data-header="type-1:sticky" data-footer="type-1">
+
+<a class="skip-link show-on-focus" href="#main">
+	Skip to content</a>
+
+<div class="ct-drawer-canvas" data-location="start"><div id="offcanvas" class="ct-panel ct-header" data-behaviour="right-side"><div class="ct-panel-inner">
+		<div class="ct-panel-actions">
 			
-			</div></div>
-</div></div>
-</div>
-</div>
-<a class="position-relative wp-block-kubio-post-title__link style-SWiKsiyndIzn0LAb-link style-local-40-link d-block" href="/hallo-wereld/"><h4 class="wp-block wp-block-kubio-post-title  position-relative wp-block-kubio-post-title__container style-SWiKsiyndIzn0LAb-container style-local-40-container" data-kubio="kubio/post-title">Hallo wereld!</h4></a><p class="wp-block wp-block-kubio-post-excerpt  position-relative wp-block-kubio-post-excerpt__text style-SWiKsifVTtKcA3Zp-text style-local-41-text" data-kubio="kubio/post-excerpt">Welkom bij WordPress. Dit is je eerste bericht. Bewerk of verwijder het, start dan met schrijven!</p>
-</div>
-</div></div>
-<!--kubio post list : end-->
-</div>
-</div></div></div>
-</div></div></div>
-</div></div>
+			<button class="ct-toggle-close" data-type="type-1" aria-label="Close drawer">
+				<svg class="ct-icon" width="12" height="12" viewbox="0 0 15 15"><path d="M1 15a1 1 0 01-.71-.29 1 1 0 010-1.41l5.8-5.8-5.8-5.8A1 1 0 011.7.29l5.8 5.8 5.8-5.8a1 1 0 011.41 1.41l-5.8 5.8 5.8 5.8a1 1 0 01-1.41 1.41l-5.8-5.8-5.8 5.8A1 1 0 011 15z"></path></svg>
+			</button>
+		</div>
+		<div class="ct-panel-content" data-device="desktop"><div class="ct-panel-content-inner"></div></div>
+<div class="ct-panel-content" data-device="mobile"><div class="ct-panel-content-inner">
+<nav class="mobile-menu menu-container" data-id="mobile-menu" data-interaction="click" data-toggle-type="type-1" data-submenu-dots="yes" aria-label="Off Canvas Menu">
+	<ul id="menu-main-menu-1" role="menubar">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-553" role="none"><a href="/" class="ct-menu-link" role="menuitem">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-700" role="none"><a href="/#overfris" class="ct-menu-link" role="menuitem">Over Fris</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-701" role="none"><a href="/#onsteam" class="ct-menu-link" role="menuitem">Ons Team</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-702" role="none"><a href="/#diensten" class="ct-menu-link" role="menuitem">Diensten</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-877" role="none"><a href="/#contact" class="ct-menu-link" role="menuitem">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-554" role="none"><a href="/nieuws/" class="ct-menu-link" role="menuitem">Nieuws</a></li>
+</ul></nav>
+
+
+<div class="ct-header-text " data-id="text">
+	<div class="entry-content is-layout-flow">
+		<p><strong>Adres<br></strong>Satellietbaan 15a, 2181MG - Hillegom</p>
+<p><strong>Email<br></strong>info@firsfinancieel.nl</p>
+<p><strong>Telefoon<br></strong>0252 - 53 27 78</p>
+<p><strong>Mobiel<br></strong>06 - 266 451 34</p>	</div>
 </div>
 
-<div class="wp-block wp-block-kubio-footer  position-relative wp-block-kubio-footer__container style-theme-gt1_zEKay-container style-local-54-container" data-kubio="kubio/footer" data-kubio-component="footer-parallax" data-kubio-settings="{&quot;isEnabled&quot;:null}"><div class="wp-block wp-block-kubio-section  position-relative wp-block-kubio-section__outer style-vP0mYzy99sE-outer style-local-55-outer d-flex h-section-global-spacing align-items-lg-center align-items-md-center align-items-center" data-kubio="kubio/section" id="footer">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-section__inner style-vP0mYzy99sE-inner style-local-55-inner h-section-grid-container h-section-boxed-container"><div class="wp-block wp-block-kubio-row  position-relative wp-block-kubio-row__container style-e6PC03TfkKI-container style-local-56-container gutters-row-lg-2 gutters-row-v-lg-2 gutters-row-md-2 gutters-row-v-md-2 gutters-row-0 gutters-row-v-2" data-kubio="kubio/row">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-row__inner style-e6PC03TfkKI-inner style-local-56-inner h-row align-items-lg-stretch align-items-md-stretch align-items-stretch justify-content-lg-center justify-content-md-center justify-content-center gutters-col-lg-2 gutters-col-v-lg-2 gutters-col-md-2 gutters-col-v-md-2 gutters-col-0 gutters-col-v-2"><div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container style-nJpox2eRXHV-container style-local-57-container d-flex h-col-lg-12 h-col-md-12 h-col-12" data-kubio="kubio/column"><div class="position-relative wp-block-kubio-column__inner style-nJpox2eRXHV-inner style-local-57-inner d-flex h-flex-basis h-px-lg-2 v-inner-lg-2 h-px-md-2 v-inner-md-2 h-px-2 v-inner-2">
-<div class="background-wrapper">
-<div class="background-layer background-layer-media-container-lg"></div>
-<div class="background-layer background-layer-media-container-md"></div>
-<div class="background-layer background-layer-media-container"></div>
-</div>
-<div class="position-relative wp-block-kubio-column__align style-nJpox2eRXHV-align style-local-57-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-start align-self-md-start align-self-start"><div class="wp-block wp-block-kubio-copyright  position-relative wp-block-kubio-copyright__outer style-tF8kitdcL-outer style-local-58-outer" data-kubio="kubio/copyright"><p><span class="hljs-symbol">&copy; 2024 Fris Financieel. Alle rechten voorbehouden. <a href="/algemenevoorwaarden">Algemene voorwaarden</a> | <a href="/gedragsenberoepsregels">Gedrags- en beroepsregels</a> | <a href="/privacyverklaring">Privacy verklaring</a> | <a href="/disclaimer">Disclaimer</a></span></p></div></div>
-</div></div></div>
-</div></div>
-</div></div>
-</div>
-		<script data-name="colibri-frontend-data">window.kubioFrontendData = [];</script>
-		<script type="text/javascript" src="/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
-<script type="text/javascript" src="/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
-<script type="text/javascript" src="/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b" id="jquery-masonry-js"></script>
-<script type="text/javascript" id="wp-block-template-skip-link-js-after">
-/* <![CDATA[ */
-	( function() {
-		var skipLinkTarget = document.querySelector( 'main' ),
-			sibling,
-			skipLinkTargetID,
-			skipLink;
+<div class="ct-header-socials " data-id="socials">
 
-		// Early exit if a skip-link target can't be located.
-		if ( ! skipLinkTarget ) {
-			return;
-		}
-
-		/*
-		 * Get the site wrapper.
-		 * The skip-link will be injected in the beginning of it.
-		 */
-		sibling = document.querySelector( '.wp-site-blocks' );
-
-		// Early exit if the root element was not found.
-		if ( ! sibling ) {
-			return;
-		}
-
-		// Get the skip-link target's ID, and generate one if it doesn't exist.
-		skipLinkTargetID = skipLinkTarget.id;
-		if ( ! skipLinkTargetID ) {
-			skipLinkTargetID = 'wp--skip-link--target';
-			skipLinkTarget.id = skipLinkTargetID;
-		}
-
-		// Create the skip link.
-		skipLink = document.createElement( 'a' );
-		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
-		skipLink.href = '#' + skipLinkTargetID;
-		skipLink.innerHTML = 'Ga naar de inhoud';
-
-		// Inject the skip link.
-		sibling.parentElement.insertBefore( skipLink, sibling );
-	}() );
 	
-/* ]]> */
-</script>
-<script type="text/javascript" src="/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
-<script type="text/javascript" src="/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
-<script type="text/javascript" id="wp-i18n-js-after">
-/* <![CDATA[ */
-wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
-/* ]]> */
-</script>
-<script type="text/javascript" src="/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8" id="swv-js"></script>
-<script type="text/javascript" id="contact-form-7-js-extra">
-/* <![CDATA[ */
-var wpcf7 = {"api":{"root":"\/wp-json\/","namespace":"contact-form-7\/v1"}};
-/* ]]> */
-</script>
-<script type="text/javascript" id="contact-form-7-js-translations">
-/* <![CDATA[ */
-( function( domain, translations ) {
-	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
-	localeData[""].domain = domain;
-	wp.i18n.setLocaleData( localeData, domain );
-} )( "contact-form-7", {"translation-revision-date":"2024-07-17 10:22:39+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"This contact form is placed in the wrong place.":["Dit contactformulier staat op de verkeerde plek."],"Error:":["Fout:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
-/* ]]> */
-</script>
-<script type="text/javascript" src="/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8" id="contact-form-7-js"></script>
-<script type="text/javascript" defer src="/wp-content/plugins/kubio/build/scripts/index.js?ver=bb781e554637419a0f02" id="kubio-scripts-js"></script>
-<script type="text/javascript" defer src="/wp-content/plugins/kubio/build/frontend/index.js?ver=4ef56b09ba2db925062c" id="kubio-frontend-js"></script>
+		<div class="ct-social-box" data-color="custom" data-icon-size="custom" data-icons-type="simple">
+			
+			
+							
+				<a href="https://www.facebook.com/FrisFinancieel/" data-network="facebook" aria-label="Facebook">
+					<span class="ct-icon-container">
+					<svg width="20px" height="20px" viewbox="0 0 20 20" aria-hidden="true">
+						<path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"></path>
+					</svg>
+				</span>				</a>
+							
+				<a href="https://www.linkedin.com/company/17945550/" data-network="linkedin" aria-label="LinkedIn">
+					<span class="ct-icon-container">
+					<svg width="20px" height="20px" viewbox="0 0 20 20" aria-hidden="true">
+						<path d="M18.6,0H1.4C0.6,0,0,0.6,0,1.4v17.1C0,19.4,0.6,20,1.4,20h17.1c0.8,0,1.4-0.6,1.4-1.4V1.4C20,0.6,19.4,0,18.6,0z M6,17.1h-3V7.6h3L6,17.1L6,17.1zM4.6,6.3c-1,0-1.7-0.8-1.7-1.7s0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.3,5.5,5.5,6.3,4.6,6.3z M17.2,17.1h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5v4.7h-3V7.6h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17.1z"></path>
+					</svg>
+				</span>				</a>
+			
+			
+					</div>
+
+	
+</div>
+</div></div>
+</div></div></div>
+<div id="main-container">
+	<header id="header" class="ct-header" data-id="type-1" itemscope="" itemtype="https://schema.org/WPHeader"><div data-device="desktop"><div class="ct-sticky-container"><div data-sticky="shrink"><div data-row="middle" data-column-set="2"><div class="ct-container">
+<div data-column="start" data-placements="1"><div data-items="primary">
+<div class="site-branding" data-id="logo" data-logo="left" itemscope="itemscope" itemtype="https://schema.org/Organization">
+
+			<a href="/" class="site-logo-container" rel="home" itemprop="url"><img fetchpriority="high" width="512" height="512" src="/wp-content/uploads/2024/10/cropped-logo-1.png" class="sticky-logo" alt="fris financieel" decoding="async" srcset="/wp-content/uploads/2024/10/cropped-logo-1.png 512w, /wp-content/uploads/2024/10/cropped-logo-1-300x300.png 300w, /wp-content/uploads/2024/10/cropped-logo-1-150x150.png 150w, /wp-content/uploads/2024/10/cropped-logo-1-270x270.png 270w, /wp-content/uploads/2024/10/cropped-logo-1-192x192.png 192w, /wp-content/uploads/2024/10/cropped-logo-1-180x180.png 180w, /wp-content/uploads/2024/10/cropped-logo-1-32x32.png 32w" sizes="(max-width: 512px) 100vw, 512px"><img width="512" height="512" src="/wp-content/uploads/2024/10/cropped-logo-1.png" class="default-logo" alt="fris financieel" decoding="async" srcset="/wp-content/uploads/2024/10/cropped-logo-1.png 512w, /wp-content/uploads/2024/10/cropped-logo-1-300x300.png 300w, /wp-content/uploads/2024/10/cropped-logo-1-150x150.png 150w, /wp-content/uploads/2024/10/cropped-logo-1-270x270.png 270w, /wp-content/uploads/2024/10/cropped-logo-1-192x192.png 192w, /wp-content/uploads/2024/10/cropped-logo-1-180x180.png 180w, /wp-content/uploads/2024/10/cropped-logo-1-32x32.png 32w" sizes="(max-width: 512px) 100vw, 512px"></a>	
+			<div class="site-title-container">
+							<span class="site-title " itemprop="name">
+					<a href="/" rel="home" itemprop="url">
+						Fris Financieel					</a>
+				</span>
+			
+					</div>
+	  </div>
+
+</div></div>
+<div data-column="end" data-placements="1"><div data-items="primary">
+<nav id="header-menu-1" class="header-menu-1 menu-container" data-id="menu" data-interaction="hover" data-menu="type-1" data-dropdown="type-1:simple" data-responsive="no" itemscope="" itemtype="https://schema.org/SiteNavigationElement" aria-label="Header Menu">
+
+	<ul id="menu-main-menu" class="menu" role="menubar">
+<li id="menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-553" role="none"><a href="/" class="ct-menu-link" role="menuitem">Home</a></li>
+<li id="menu-item-700" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-700" role="none"><a href="/#overfris" class="ct-menu-link" role="menuitem">Over Fris</a></li>
+<li id="menu-item-701" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-701" role="none"><a href="/#onsteam" class="ct-menu-link" role="menuitem">Ons Team</a></li>
+<li id="menu-item-702" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-702" role="none"><a href="/#diensten" class="ct-menu-link" role="menuitem">Diensten</a></li>
+<li id="menu-item-877" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-877" role="none"><a href="/#contact" class="ct-menu-link" role="menuitem">Contact</a></li>
+<li id="menu-item-554" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-554" role="none"><a href="/nieuws/" class="ct-menu-link" role="menuitem">Nieuws</a></li>
+</ul></nav>
+
+</div></div>
+</div></div></div></div></div>
+<div data-device="mobile"><div class="ct-sticky-container"><div data-sticky="shrink"><div data-row="middle" data-column-set="2"><div class="ct-container">
+<div data-column="start" data-placements="1"><div data-items="primary">
+<div class="site-branding" data-id="logo" data-logo="left">
+
+			<a href="/" class="site-logo-container" rel="home" itemprop="url"><img fetchpriority="high" width="512" height="512" src="/wp-content/uploads/2024/10/cropped-logo-1.png" class="sticky-logo" alt="fris financieel" decoding="async" srcset="/wp-content/uploads/2024/10/cropped-logo-1.png 512w, /wp-content/uploads/2024/10/cropped-logo-1-300x300.png 300w, /wp-content/uploads/2024/10/cropped-logo-1-150x150.png 150w, /wp-content/uploads/2024/10/cropped-logo-1-270x270.png 270w, /wp-content/uploads/2024/10/cropped-logo-1-192x192.png 192w, /wp-content/uploads/2024/10/cropped-logo-1-180x180.png 180w, /wp-content/uploads/2024/10/cropped-logo-1-32x32.png 32w" sizes="(max-width: 512px) 100vw, 512px"><img width="512" height="512" src="/wp-content/uploads/2024/10/cropped-logo-1.png" class="default-logo" alt="fris financieel" decoding="async" srcset="/wp-content/uploads/2024/10/cropped-logo-1.png 512w, /wp-content/uploads/2024/10/cropped-logo-1-300x300.png 300w, /wp-content/uploads/2024/10/cropped-logo-1-150x150.png 150w, /wp-content/uploads/2024/10/cropped-logo-1-270x270.png 270w, /wp-content/uploads/2024/10/cropped-logo-1-192x192.png 192w, /wp-content/uploads/2024/10/cropped-logo-1-180x180.png 180w, /wp-content/uploads/2024/10/cropped-logo-1-32x32.png 32w" sizes="(max-width: 512px) 100vw, 512px"></a>	
+			<div class="site-title-container">
+							<span class="site-title ">
+					<a href="/" rel="home">
+						Fris Financieel					</a>
+				</span>
+			
+					</div>
+	  </div>
+
+</div></div>
+<div data-column="end" data-placements="1"><div data-items="primary">
+<button data-toggle-panel="#offcanvas" class="ct-header-trigger ct-toggle " data-design="simple" data-label="right" aria-label="Menu" data-id="trigger">
+
+	<span class="ct-label ct-hidden-sm ct-hidden-md ct-hidden-lg">Menu</span>
+
+	<svg class="ct-icon" width="18" height="14" viewbox="0 0 18 14" aria-hidden="true" data-type="type-1">
+
+		<rect y="0.00" width="18" height="1.7" rx="1"></rect>
+		<rect y="6.15" width="18" height="1.7" rx="1"></rect>
+		<rect y="12.3" width="18" height="1.7" rx="1"></rect>
+	</svg>
+</button>
+</div></div>
+</div></div></div></div></div></header>
+	<main id="main" class="site-main hfeed" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+
+		
+<div class="hero-section" data-type="type-2">
+	
+			<header class="entry-header ct-container-narrow">
+			<div class="ct-author-name">
+<span class="ct-media-container-static"><img src="http://1.gravatar.com/avatar/729ae85bf62b9917e93538db2f2688ca?s=120&amp;d=mm&amp;r=g" width="60" height="60" style="height:60px" alt="admin"></span><h1 class="page-title" title="admin" itemprop="headline">admin</h1>
+</div>
+		<ul class="entry-meta" data-type="simple:slash">
+							<li class="meta-date">Joined:&nbsp;October 3, 2024</li>
+			
+							<li class="meta-articles">Articles:&nbsp;1</li>
+			
+					</ul>
+
+	<div class="author-box-socials"><span><a href="/" aria-label="Website icon"><svg class="ct-icon" width="12" height="12" viewbox="0 0 20 20"><path d="M10 0C4.5 0 0 4.5 0 10s4.5 10 10 10 10-4.5 10-10S15.5 0 10 0zm6.9 6H14c-.4-1.8-1.4-3.6-1.4-3.6s2.8.8 4.3 3.6zM10 2s1.2 1.7 1.9 4H8.1C8.8 3.6 10 2 10 2zM2.2 12s-.6-1.8 0-4h3.4c-.3 1.8 0 4 0 4H2.2zm.9 2H6c.6 2.3 1.4 3.6 1.4 3.6C4.3 16.5 3.1 14 3.1 14zM6 6H3.1c1.6-2.8 4.3-3.6 4.3-3.6S6.4 4.2 6 6zm4 12s-1.3-1.9-1.9-4h3.8c-.6 2.1-1.9 4-1.9 4zm2.3-6H7.7s-.3-2 0-4h4.7c.3 1.8-.1 4-.1 4zm.3 5.6s1-1.8 1.4-3.6h2.9c-1.6 2.7-4.3 3.6-4.3 3.6zm1.7-5.6s.3-2.1 0-4h3.4c.6 2.2 0 4 0 4h-3.4z"></path></svg></a></span></div>		</header>
+	</div>
+
+
+
+<div class="ct-container" data-vertical-spacing="top:bottom">
+	<section>
+		<div class="entries" data-archive="default" data-layout="grid" data-cards="boxed"><article class="entry-card card-content post-947 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized" data-reveal="bottom:no"><ul class="entry-meta" data-type="simple:slash" data-id="meta_1"><li class="meta-categories" data-type="simple"><a href="/category/uncategorized/" rel="tag" class="ct-term-1">Uncategorized</a></li></ul>
+<h2 class="entry-title"><a href="/een-frisse-nieuwe-website/" rel="bookmark">Een frisse nieuwe website</a></h2>
+<a class="ct-media-container boundless-image" href="/een-frisse-nieuwe-website/" aria-label="Een frisse nieuwe website" tabindex="-1"><img width="768" height="382" src="/wp-content/uploads/2024/10/Screenshot-2024-10-09-153831-768x382.png" class="attachment-medium_large size-medium_large wp-post-image" alt="" loading="lazy" decoding="async" srcset="/wp-content/uploads/2024/10/Screenshot-2024-10-09-153831-768x382.png 768w, /wp-content/uploads/2024/10/Screenshot-2024-10-09-153831-300x149.png 300w, /wp-content/uploads/2024/10/Screenshot-2024-10-09-153831-1024x510.png 1024w, /wp-content/uploads/2024/10/Screenshot-2024-10-09-153831-1536x765.png 1536w, /wp-content/uploads/2024/10/Screenshot-2024-10-09-153831-2048x1020.png 2048w" sizes="(max-width: 768px) 100vw, 768px" itemprop="image" style="aspect-ratio: 4/3;"></a><div class="entry-excerpt">
+<p>Na jaren dezelfde website te hebben gehad vonden we dat het tijd was voor iets nieuws. De website van Fris was aan verfrissing toe! Nu is het eindelijk zover, deze nieuwe website is live. Op deze site vind je een…</p>
+</div>
+<div class="ct-ghost"></div>
+<ul class="entry-meta" data-type="simple:slash" data-id="meta_2">
+<li class="meta-author" itemprop="author" itemscope="" itemtype="https://schema.org/Person"><a class="ct-meta-element-author" href="/author/admin/" title="Posts by admin" rel="author" itemprop="url"><span itemprop="name">admin</span></a></li>
+<li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2024-10-09T15:39:33+02:00">October 9, 2024</time></li>
+</ul></article></div>	</section>
+
+	</div>
+	</main>
+
+	<footer id="footer" class="ct-footer" data-id="type-1" itemscope="" itemtype="https://schema.org/WPFooter"><div data-row="top"><div class="ct-container"><div data-column="widget-area-4"><div class="ct-widget widget_block" id="block-8"><div class="ct-block-wrapper">
+
+<h2 class="wp-block-heading widget-title has-palette-color-8-color has-text-color has-link-color wp-elements-d124b960eb04bebc0e30ae2db83e5138">Contact Informatie</h2>
+
+
+
+<p class="has-palette-color-8-color has-text-color has-link-color wp-elements-0da660790bb33d60f9d951858046caf6"> Je kunt ons bereiken met de volgende gegevens</p>
+
+
+<div class="ct-contact-info-block " style="--theme-icon-size:20px;--theme-block-text-color:var(--wp--preset--color--palette-color-8);--theme-link-initial-color:var(--wp--preset--color--palette-color-8);--theme-link-hover-color:var(--wp--preset--color--palette-color-5);--theme-icon-color:var(--wp--preset--color--palette-color-8);--theme-icon-hover-color:var(--wp--preset--color--palette-color-5);--background-color:var(--wp--preset--color--palette-color-8);--background-hover-color:var(--wp--preset--color--palette-color-5);">
+		<ul data-icons-type="rounded:outline">
+											<li class="">
+					<span class="ct-icon-container"><svg width="18" height="18" viewbox="0 0 20 20" aria-hidden="true"><path d="M10,0C4.5,0,0,4.5,0,10s4.5,10,10,10h5v-2h-5c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8v1.5c0,0.8-0.7,1.5-1.5,1.5S15,12.3,15,11.5V10c0-2.7-2.3-5-5-5s-5,2.3-5,5s2.3,5,5,5c1.4,0,2.7-0.6,3.6-1.6c0.6,0.9,1.7,1.6,2.9,1.6c1.9,0,3.5-1.6,3.5-3.5V10C20,4.5,15.5,0,10,0zM10,7c1.7,0,3,1.3,3,3s-1.3,3-3,3s-3-1.3-3-3S8.3,7,10,7z"></path></svg></span>
+											<div class="contact-info">
+															<span class="contact-title">
+									Email:								</span>
+							
+															<span class="contact-text">
+																			<a href="mailto:&#105;&#110;&#102;&#111;&#64;f&#114;&#105;sfi&#110;a&#110;&#99;&#105;e&#101;&#108;.nl" target="_blank" rel="noopener noreferrer">
+									
+									&#105;&#110;f&#111;&#64;&#102;&#114;&#105;&#115;&#102;&#105;na&#110;c&#105;&#101;el&#46;&#110;&#108;
+																			</a>
+																	</span>
+													</div>
+									</li>
+											<li class="">
+					<span class="ct-icon-container"><svg width="18" height="18" viewbox="0 0 20 20" aria-hidden="true"><path d="M4.4,0C4,0,3.6,0.2,3.2,0.4l0,0l0,0L0.8,2.9l0,0C0,3.6-0.2,4.7,0.1,5.6c0,0,0,0,0,0c0.7,1.9,2.3,5.5,5.6,8.7c3.3,3.3,6.9,4.9,8.7,5.6h0c0.9,0.3,1.9,0.1,2.7-0.5l2.4-2.4c0.6-0.6,0.6-1.7,0-2.4l-3.1-3.1l0,0c-0.6-0.6-1.8-0.6-2.4,0l-1.5,1.5c-0.6-0.3-1.9-1-3.1-2.2C8,9.5,7.4,8.2,7.2,7.6l1.5-1.5c0.6-0.6,0.7-1.7,0-2.4l0,0L8.6,3.6L5.6,0.5l0,0l0,0C5.2,0.2,4.8,0,4.4,0zM4.4,1.5c0.1,0,0.1,0,0.2,0.1l3.1,3.1l0.1,0.1c0,0,0,0.1,0,0.2L5.7,6.9L5.3,7.3l0.2,0.5c0,0,0.9,2.4,2.7,4.1L8.4,12c1.8,1.6,3.9,2.5,3.9,2.5l0.5,0.2l2.3-2.3c0.1-0.1,0.1-0.1,0.2,0l3.1,3.1c0.1,0.1,0.1,0.1,0,0.2l-2.4,2.4c-0.4,0.3-0.7,0.4-1.2,0.2c-1.7-0.7-5.1-2.2-8.1-5.2c-3-3-4.6-6.5-5.2-8.2c-0.1-0.3,0-0.8,0.2-1l0,0l2.3-2.4C4.2,1.6,4.3,1.5,4.4,1.5z"></path></svg></span>
+											<div class="contact-info">
+															<span class="contact-title">
+									Telefoon:								</span>
+							
+															<span class="contact-text">
+																			<a href="tel:0252–532778" target="_blank" rel="noopener noreferrer">
+									
+									0252 – 53 27 78
+																			</a>
+																	</span>
+													</div>
+									</li>
+											<li class="">
+					<span class="ct-icon-container"><svg width="18" height="18" viewbox="0 0 20 20" aria-hidden="true"><path d="M13.5,20H6.5c-1.6,0-2.9-1.3-2.9-2.9V2.9C3.5,1.3,4.8,0,6.5,0h7.1c1.6,0,2.9,1.3,2.9,2.9v14.1C16.5,18.7,15.2,20,13.5,20zM6.7,1.7C5.8,1.7,5,2.5,5,3.4v13.2c0,0.9,0.7,1.7,1.7,1.7h6.6c0.9,0,1.7-0.7,1.7-1.7V3.4c0-0.9-0.7-1.7-1.7-1.7H6.7z"></path><path d="M11.2,4.4H8.8c-0.3,0-0.6-0.3-0.6-0.6s0.3-0.6,0.6-0.6h2.4c0.3,0,0.6,0.3,0.6,0.6S11.5,4.4,11.2,4.4z"></path><circle cx="10" cy="15.7" r="1.2"></circle></svg></span>
+											<div class="contact-info">
+															<span class="contact-title">
+									Mobiel:								</span>
+							
+															<span class="contact-text">
+																			<a href="tel:06–26645134" target="_blank" rel="noopener noreferrer">
+									
+									06 – 266 451 34
+																			</a>
+																	</span>
+													</div>
+									</li>
+											<li class="">
+					<span class="ct-icon-container"><svg width="18" height="18" viewbox="0 0 20 20" aria-hidden="true"><path d="M10,0C6.1,0,3,3.1,3,7c0,4.5,6,11.8,6.2,12.1L10,20l0.8-0.9C11,18.8,17,11.5,17,7C17,3.1,13.9,0,10,0z M10,2c2.8,0,5,2.2,5,5c0,2.7-3.1,7.4-5,9.8C8.1,14.4,5,9.7,5,7C5,4.2,7.2,2,10,2zM10,4.5C8.6,4.5,7.5,5.6,7.5,7S8.6,9.5,10,9.5s2.5-1.1,2.5-2.5S11.4,4.5,10,4.5z"></path></svg></span>
+											<div class="contact-info">
+															<span class="contact-title">
+									Adres:								</span>
+							
+															<span class="contact-text">
+																			<a href="https://www.google.com/maps/place/Fris+Financieel/@52.3011519,4.5827731,17z/data=!3m1!4b1!4m6!3m5!1s0x47c5e9b17d153f9f:0xf6493062dd420aaf!8m2!3d52.3011486!4d4.585348!16s%2Fg%2F1tfq8dx3?entry=ttu" target="_blank" rel="noopener noreferrer">
+									
+									Satellietbaan 15a 2181 MG – Hillegom
+																			</a>
+																	</span>
+													</div>
+									</li>
+											<li class="">
+					<span class="ct-icon-container"><svg width="18" height="18" viewbox="0 0 20 20" aria-hidden="true"><path d="M9.3,0C4.4,0,0.4,4,0.4,8.9s4,8.9,8.9,8.9c0.8,0,1.5-0.1,2.2-0.3v-3.9c-0.6,1.7-1.4,2.7-2.2,2.7c-0.9,0-2-1.5-2.5-3.7h4.8v-1.5h-5c-0.1-0.7-0.1-1.4-0.1-2.2c0-0.8,0.1-1.5,0.2-2.2h5.6c0.1,0.7,0.2,1.4,0.2,2.2c0,0.2,0,0.4,0,0.6c0.4-0.4,0.9-0.6,1.5-0.6c0-0.8,0-1.5-0.1-2.2h2.8c0.2,0.7,0.3,1.4,0.3,2.2c0,0.5-0.1,1-0.2,1.5l1.3,0.9c0.2-0.8,0.3-1.6,0.3-2.4C18.1,4,14.2,0,9.3,0zM9.3,1.5c0.9,0,2,1.5,2.5,3.7h-5C7.3,2.9,8.3,1.5,9.3,1.5zM6.3,2.1C5.9,2.9,5.5,4,5.2,5.2H2.8C3.6,3.8,4.9,2.7,6.3,2.1zM12.2,2.1c1.5,0.6,2.7,1.7,3.5,3.1h-2.3C13.1,4,12.7,2.9,12.2,2.1zM2.2,6.7h2.8C4.9,7.4,4.8,8.1,4.8,8.9c0,0.8,0.1,1.5,0.1,2.2H2.2C2,10.4,1.9,9.7,1.9,8.9C1.9,8.1,2,7.4,2.2,6.7z M13.7,10.4c-0.4,0-0.7,0.3-0.8,0.7c0,0,0,0.1,0,0.1v6.6c0,0.4,0.3,0.7,0.7,0.7c0.2,0,0.4-0.1,0.5-0.2l0,0l1.4-1.6l1.5,3c0.2,0.4,0.6,0.5,1,0.3c0.4-0.2,0.5-0.6,0.3-1l-1.5-3l2.2-0.4l0,0c0.3-0.1,0.5-0.4,0.5-0.7c0-0.3-0.1-0.5-0.3-0.6l0,0l-5.1-3.6C14.1,10.4,13.9,10.4,13.7,10.4zM2.9,12.6h2.3c0.3,1.2,0.7,2.3,1.1,3.1C4.9,15.1,3.7,14,2.9,12.6z"></path></svg></span>
+											<div class="contact-info">
+															<span class="contact-title">
+									KvK:								</span>
+							
+															<span class="contact-text">
+									
+									75075261
+																	</span>
+													</div>
+									</li>
+					</ul>
+
+		</div>
+</div></div></div></div></div>
+<div data-row="middle"><div class="ct-container-fluid"><div data-column="widget-area-6" data-link="none"><div class="ct-widget widget_block" id="block-16">
+<ul class="wp-block-list">
+<li style="text-decoration:none">
+<a href="http://frisfinancieel.nl/algemene-voorwaarden/" target="_blank" rel="noreferrer noopener">Algemene Voorwaarden</a> | <a href="https://frisfinancieel.nl/gedrags-en-beroepsregels" target="_blank" rel="noreferrer noopener">Gedrags- en beroepsregels</a> | <a href="https://frisfinancieel.nl/privacy-verklaring" target="_blank" rel="noreferrer noopener">Privacy verklaring</a> | <a href="https://frisfinancieel.nl/disclaimer" target="_blank" rel="noreferrer noopener">Disclaimer</a>
+</li>
+</ul>
+</div></div></div></div>
+<div data-row="bottom"><div class="ct-container">
+<div data-column="copyright">
+<div class="ct-footer-copyright" data-id="copyright">
+
+	<p>Copyright © 2024 - Website by Dennis Soet</p>
+</div>
+</div>
+<div data-column="socials">
+<div class="ct-footer-socials" data-id="socials">
+
+	
+		<div class="ct-social-box" data-color="custom" data-icon-size="custom" data-icons-type="simple">
+			
+			
+							
+				<a href="https://www.facebook.com/FrisFinancieel/" data-network="facebook" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+					<span class="ct-icon-container">
+					<svg width="20px" height="20px" viewbox="0 0 20 20" aria-hidden="true">
+						<path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"></path>
+					</svg>
+				</span>				</a>
+							
+				<a href="https://www.linkedin.com/company/17945550/" data-network="linkedin" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+					<span class="ct-icon-container">
+					<svg width="20px" height="20px" viewbox="0 0 20 20" aria-hidden="true">
+						<path d="M18.6,0H1.4C0.6,0,0,0.6,0,1.4v17.1C0,19.4,0.6,20,1.4,20h17.1c0.8,0,1.4-0.6,1.4-1.4V1.4C20,0.6,19.4,0,18.6,0z M6,17.1h-3V7.6h3L6,17.1L6,17.1zM4.6,6.3c-1,0-1.7-0.8-1.7-1.7s0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.3,5.5,5.5,6.3,4.6,6.3z M17.2,17.1h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5v4.7h-3V7.6h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17.1z"></path>
+					</svg>
+				</span>				</a>
+			
+			
+					</div>
+
+	</div>
+
+</div>
+</div></div></footer>
+</div>
+
+			<script type="text/javascript">const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );</script>
+			<style id="core-block-supports-inline-css">.wp-elements-d124b960eb04bebc0e30ae2db83e5138 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--palette-color-8);}.wp-elements-0da660790bb33d60f9d951858046caf6 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--palette-color-8);}</style>
+<script id="ct-scripts-js-extra">var ct_localizations = {"ajax_url":"\/wp-admin\/admin-ajax.php","public_url":"\/wp-content\/themes\/blocksy\/static\/bundle\/","rest_url":"\/wp-json\/","search_url":"\/search\/QUERY_STRING\/","show_more_text":"Show more","more_text":"More","search_live_results":"Search results","search_live_no_results":"No results","search_live_no_result":"No results","search_live_one_result":"You got %s result. Please press Tab to select it.","search_live_many_results":"You got %s results. Please press Tab to select one.","clipboard_copied":"Copied!","clipboard_failed":"Failed to Copy","expand_submenu":"Expand dropdown menu","collapse_submenu":"Collapse dropdown menu","dynamic_js_chunks":[{"id":"blocksy_sticky_header","selector":"header [data-sticky]","url":"\/wp-content\/plugins\/blocksy-companion\/static\/bundle\/sticky.js?ver=2.0.71"}],"dynamic_styles":{"lazy_load":"\/wp-content\/themes\/blocksy\/static\/bundle\/non-critical-styles.min.css?ver=2.0.71","search_lazy":"\/wp-content\/themes\/blocksy\/static\/bundle\/non-critical-search-styles.min.css?ver=2.0.71","back_to_top":"\/wp-content\/themes\/blocksy\/static\/bundle\/back-to-top.min.css?ver=2.0.71"},"dynamic_styles_selectors":[{"selector":".ct-header-cart, #woo-cart-panel","url":"\/wp-content\/themes\/blocksy\/static\/bundle\/cart-header-element-lazy.min.css?ver=2.0.71"},{"selector":".flexy","url":"\/wp-content\/themes\/blocksy\/static\/bundle\/flexy.min.css?ver=2.0.71"},{"selector":"#account-modal","url":"\/wp-content\/plugins\/blocksy-companion\/static\/bundle\/header-account-modal-lazy.min.css?ver=2.0.71"},{"selector":".ct-header-account","url":"\/wp-content\/plugins\/blocksy-companion\/static\/bundle\/header-account-dropdown-lazy.min.css?ver=2.0.71"}]};</script>
+<script src="/wp-content/themes/blocksy/static/bundle/main.js?ver=2.0.71" id="ct-scripts-js"></script>
+
 </body>
+
+
+<!-- WP Optimize page cache - https://getwpo.com - Page not served from cache  -->
 </html>
